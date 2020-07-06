@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<meta charset="ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/Education.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Resources</title>
+
+</head>
+
+<body>
+
+	<script type="text/javascript" src="includes/webMenuBar.js"></script>
+	<script type="text/javascript" src="includes/smallWebMenuBar.js"></script>
+	<script type="text/javascript">
+		document.getElementById("EduMenuButton").classList.add("active");
+	</script>
+	
+	<div class="row">
+	
+  		<!-- Sidebar Navigation -->
+  		<div class="column left eduColLeft">
+    		<ul class="EduSideMenu SideMenu">
+    			<li class="SideMenuItem"><a href="Education.html">OUR CURRICULUM</a></li>
+    			<li class="SideMenuItem"><a href="PeerEdModel.html">THE PEER EDUCATION MODEL</a></li>
+    			<li class="SideMenuItem"><a href="EduPhil.html">EDUCATIONAL PHILOSOPHY</a></li>
+    			<li class="SideMenuItem"><a href="ErinsLaw.html">ERIN'S LAW</a></li>
+			<li class="SideMenuItem"><a class="active" href="Resources.html">RESOURCES</a></li>
+			<li class="SideMenuItem"><a href="AnonQ.html">ANONYMOUS QUESTIONS</a></li>
+		</ul>
+			
+			<!-- Donate Button -->
+			<div class="sidebarBlock" onclick="window.location='https://secure.actblue.com/donate/respect-ed';">
+				<div class="sidebarImage donationImage"></div>
+				<h3> Support Respect(Ed)! </h3>
+				<p> Your donation helps students bring essential and effective consent education into their classrooms.</p>
+			</div>
+			
+  		</div>
+		
+		<div id = "smallSideMenu" class = "smallSideMenu">
+  			<i class="smallSideIcon fa fa-bars" aria-hidden="true"></i>
+  			<p class="smallSideText">RESOURCES</p>
+  		</div>
+  		
+  	</div>
+  	
+	<div class="column right eduColRight">
+					
+			<h2 class="sectionTitle">Resources</h2>
+	
+			<p class="sectionText">We recommend the following organizations, research, and reports for 
+			additional reading and assistance. Also be sure to check for local resources in your area.
+			</p>
+
+			<br>
+			<h3 class="EduSubtitleB">Sexual Assault</h3>
+			<p class="sectionText resourceTitle">
+				Respect(Ed) is committed to the work of sexual violence prevention, 
+				but we don't currently offer direct support for survivors. 
+				If you or someone you know has experienced sexual violence, these organizations are here to help.
+			</p>
+
+			<button onclick="window.location.href='https://www.rainn.org/'" class="resourceButton">
+			RAINN (Rape, Abuse & Incest National Network)
+			</button>
+			<p class="sectionText">
+			<a href="tel:8006564673">800-656-4673</a> <br>
+			A 24/7 free and confidential call line for those affected by sexual violence. 
+			There is also an online chat option on their website, along with a multitude of 
+			resources and educational materials.
+			</p>
+
+			<button onclick="window.location.href='https://www.nsvrc.org/'" class="resourceButton">
+			National Sexual Violence Resource Center (NSVRC)
+			</button>
+			<p class="sectionText">
+			A hub for sexual violence-related resources, support, and education.
+			</p>
+
+			<button onclick="window.location.href='https://www.ourresilience.org/'" class="resourceButton">
+			Resilience
+			</button>
+			<p class="sectionText">
+			Provides therapy, legal advocacy, and other forms of support for surviviors of sexual violence.
+			</p>
+
+			<br>
+
+			<h3 class="EduSubtitleB">Know Your Rights</h3>
+			<p class="sectionText resourceTitle">
+				By law, U.S. schools have certain obligations around preventing and reporting sexual harassment 
+				and assault. The government documents included in this list can be difficult to read; 
+				we recommend consulting with a civil rights attorney if you are considering legal action against 
+				your school.
+			</p>
+
+			<button onclick="window.location.href='https://www.aclu.org/sites/default/files/field_document/genderbasedviolence_factsheet_0.pdf'" class="resourceButton">
+			ACLU Title IX fact sheet
+			</button>
+			<p class="sectionText">
+			Explains what Title IX is and what your school can and cannot do when you make a Title IX complaint.
+			</p>
+
+			<button onclick="window.location.href='http://www.ncdsv.org/images/ACLU-SAFER_TitleIXandSexualAssaultKnowYourRightsAndYourCollege'sResponsibilities.pdf'" class="resourceButton">
+			ACLU Title IX & sexual assault
+			</button>
+			<p class="sectionText">
+			Information on how to use Title IX protections to hold your school accountable for sexual assault.
+			 While specifically aimed at college students, most of this information applies to high schools as well.
+			</p>
+
+			<button onclick="window.location.href='https://www2.ed.gov/about/offices/list/ocr/docs/shguide.html'" class="resourceButton">
+			Revised Sexual Harassment Guidance
+			</button>
+			<p class="sectionText">
+			This guidance is what the U.S. Department of Education Office of Civil Rights currently uses to
+			 determine how Title IX applies to sexual harassment in schools and what schools must do to comply
+			  with the law.
+			</p>
+
+			<button onclick="window.location.href='https://www2.ed.gov/about/offices/list/ocr/docs/qa-title-ix-201709.pdf'" class="resourceButton">
+			Q&A on Campus Sexual Misconduct
+			</button>
+			<p class="sectionText">
+			Explains how the U.S. Department of Education Office of Civil Rights has determined Title 
+			IX complaints relating to sexual harassment and assault should be handled.
+			</p>
+
+			<button onclick="window.location.href='https://www.guttmacher.org/state-policy/explore/sex-and-hiv-education#'" class="resourceButton">
+			The Guttmacher Institute
+			</button>
+			<p class="sectionText">
+			Find out if your state mandates sex ed in public schools, and learn about federal and state
+			 policy relating to sexual and reproductive health.
+			</p>
+
+			<br>
+
+			<h3 class="EduSubtitleB">LGBTQ+</h3>
+			<p class="sectionText resourceTitle">
+				Learn, connect with other LGBTQ+ people, and get help. 
+			</p>
+
+			<button onclick="window.location.href='https://www.transathlete.com/'" class="resourceButton">
+			Transathlete.com
+			</button>
+			<p class="sectionText">
+			Lists almost all policies accross sports and location pertaining to transgender athletes and 
+			guides to discriminatory legislation. The site is run by Chris Mosier a multi-disciplinary transgender 
+			athlete and six time member of Team USA.
+			</p>
+
+			<button onclick="window.location.href='https://www.asexuality.org/'" class="resourceButton">
+			Asexuality Visibility & Education Network (AVEN)
+			</button>
+			<p class="sectionText">
+			An online educational and community space centered around asexuality.
+			</p>
+
+			<button onclick="window.location.href='https://www.thetrevorproject.org/'" class="resourceButton">
+			The Trevor Project 
+			</button>
+			<p class="sectionText">
+			<a href="tel:18664887386">1-866-488-7386</a><br>
+			A crisis line (with text and online chat options) for LGBTQ+ youth. 
+			They also have educational materials and other resources on their website.
+			</p>
+
+			<button onclick="window.location.href='https://www.lambdalegal.org/'" class="resourceButton">
+			Lambda Legal
+			</button>
+			<p class="sectionText">
+			A legal organization pursuing LGBTQ+ rights in court and educating about existing 
+			legal protections for LGBTQ+ people in every state.
+			</p>
+
+			<br>
+
+			<h3 class="EduSubtitleB">Statistics</h3>
+			<p class="sectionText resourceTitle">
+				Look at the latest numbers on sexual violence.
+			</p>
+
+			<button onclick="window.location.href='https://www.cdc.gov/violenceprevention/pdf/2015data-brief508.pdf'" class="resourceButton">
+			National Intimate Partner and Sexual Violence Survey (NISVS) 2015 Brief
+			</button>
+			<p class="sectionText">
+			The most recent statistics from the Center for Disease Control on intimate partner and
+			 sexual violence in the U.S.
+			</p>
+
+			<button onclick="window.location.href='https://www.cdc.gov/violenceprevention/pdf/NISVS-StateReportBook.pdf'" class="resourceButton">
+			NISVS 2010-12 State Report
+			</button>
+			<p class="sectionText">
+			A breakdown of intimate partner and sexual violence numbers by state.
+			</p>
+
+			<button onclick="window.location.href='https://www.cdc.gov/violenceprevention/pdf/nisvs_sofindings.pdf'" class="resourceButton">
+			NISVS 2010 - Findings by Sexual Orientation
+			</button>
+			<p class="sectionText">
+			A breakdown of intimate partner and sexual violence numbers by sexual orientation.
+			</p>
+			 
+	</div>
+		
+		<!-- Bottom Menu -->
+		<div class="bottomMenu">
+				<div class="leftBottomMenu">
+					<a >
+						<img class="smallLogo" alt="Logo" src="img/MainLogo.png" />
+					</a>
+					<p class="bottomMenuText">Respect(Ed) Peer Education Program is a registered 501(c)(3) nonprofit under EIN 83-4269894. 
+					All donations are fully tax-deductible.</p>
+					<ul>
+						<li>
+							<a class="leftmost fa fa-facebook bottomMenuSocials" href="https://www.facebook.com/respectedpeereducation/"></a>
+							<a href="https://twitter.com/respecteducate" class="fa fa-twitter bottomMenuSocials"></a>
+							<a href="https://www.instagram.com/respecteducate/" class="fa fa-instagram bottomMenuSocials"></a>
+							<a class="donateFooter" href="https://secure.actblue.com/donate/respect-ed">DONATE!</a>
+						</li>
+					</ul>
+				</div>
+				<div class="rightBottomMenu">
+					
+					<ul id="AboutBottomMenu">
+						<li class="mainBottom">
+							<a href="About.html">About</a>
+						</li>
+						<li class="minorBottom">
+							<a href="About.html">What We Do</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Staff.html">Our Team</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Story.html">Our Story</a>
+						</li>
+					</ul>
+					
+					<ul id="EducationBottomMenu">
+						<li class="mainBottom">
+							<a href="Education.html">Education</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Education.html">Our Curriculum</a>
+						</li>
+						<li class="minorBottom">
+							<a href="PeerEdModel.html">The Peer Education Model</a>
+						</li>
+						<li class="minorBottom">
+							<a href="EduPhil.html">Educational Philosophy</a>
+						</li>
+						<li class="minorBottom">
+							<a href="ErinsLaw.html">Erin's Law</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Resources.html">Resources</a>
+						</li>
+						<li class="minorBottom">
+							<a href="AnonQ.html">Anonymous Questions</a>
+						</li>
+					</ul>
+					
+					<ul id="GetInvBottomMenu">
+						<li class="mainBottom">
+							<a href="GetInvolved.html">Get Involved</a>
+						</li>
+						<li class="minorBottom">
+							<a href="GetInvolved.html">Respect(Ed) at Your School</a>
+						</li>
+						<li class="minorBottom">
+							<a href="ContactUs.html">Contact Us</a>
+						</li>
+					</ul>
+					
+					<ul id="WhatsNewMenu">
+						<li class="mainBottom">
+							<a href="WhatsNew.html">What's New</a>
+						</li>
+					</ul>
+					
+				</div>
+		</div>
+		
+		<div id="copyAndCredit">
+				<p>&copy; 2020 Respect(Ed) Peer Education Program   |   Website Developed and Designed by Jenna Everard and Catherine O'Brien</p>
+		</div>
+		
+	<div id="popupSideMenu" class="popupSideMenu">
+  				<div class="popupSideMenuContent">
+  						<div class="SideMenuItemBlock">
+  							<ul class="PopUpSideMenu">
+				    			<li onclick="window.location.href='Education.html'" class="PopUpSideMenuItem"><a href="Education.html">OUR CURRICULUM</a></li>
+								<li onclick="window.location.href='PeerEdModel.html'" class="PopUpSideMenuItem"><a href="PeerEdModel.html">THE PEER EDUCATION MODEL</a></li>
+								<li onclick="window.location.href='EduPhil.html'" class="PopUpSideMenuItem"><a href="EduPhil.html">EDUCATIONAL PHILOSOPHY</a></li>
+								<li onclick="window.location.href='ErinsLaw.html'" class="PopUpSideMenuItem"><a href="ErinsLaw.html">ERIN'S LAW</a></li>
+								<li onclick="window.location.href='Resources.html'" class="PopUpSideMenuItem SmallSideItemactive"><a class="SmallSideMenuactive" href="Resources.html">RESOURCES</a></li>
+								<li onclick="window.location.href='AnonQ.html'" class="PopUpSideMenuItem"><a href="AnonQ.html">ANONYMOUS QUESTIONS</a></li>
+							</ul>
+							<!-- <div class="PopUpsidebarBlock" onclick="window.location='https://secure.actblue.com/donate/respect-ed';">
+								<div class="PopUpsidebarImage PopUpdonationImage"></div>
+								<h3> Support Respect(Ed)! </h3>
+								<p> Your donation helps students bring essential and effective consent education into their classrooms. </p>
+							</div>-->
+  						</div>
+  				</div>
+  		</div>
+	
+	<script>			
+			var popupButton = document.getElementById("smallSideMenu");
+			popupButton.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='block';*/
+				document.getElementById("popupSideMenu").style.display='block';
+				document.getElementById("popupSideMenu").style.height=document.body.scrollHeight+"px";
+			})
+
+			var fadedPage = document.getElementById("popupSideMenu");
+			fadedPage.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='none';*/
+				document.getElementById("popupSideMenu").style.display='none';
+			})
+
+			var closeButton = document.getElementById("SideMenuclose");
+			closeButton.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='none';*/
+				document.getElementById("popupSideMenu").style.display='none';
+			})
+
+	</script>
+	
+	<script type="text/javascript" src="includes/mobileMenu.js"></script>
+	
+</body>
+
+</html>

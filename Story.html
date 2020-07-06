@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<meta charset="ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/About.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<title>History</title>
+
+</head>
+
+<body>
+
+	<script type="text/javascript" src="includes/webMenuBar.js"></script>
+	<script type="text/javascript" src="includes/smallWebMenuBar.js"></script>
+	<script type="text/javascript">
+		document.getElementById("AboutMenuButton").classList.add("active");
+	</script>
+	
+	<div class="row">
+	
+  		<!-- Sidebar Navigation -->
+  		<div class="column left">
+    	<ul class="SideMenu">
+    		<li class="SideMenuItem"><a href="About.html">WHAT WE DO</a></li>
+			<li class="SideMenuItem"><a href="Staff.html">OUR TEAM</a></li>
+			<li class="SideMenuItem"><a class="active" href="Story.html">OUR STORY</a></li>
+		</ul>
+		
+		<!-- Donate Button -->
+		<div class="sidebarBlock" onclick="window.location='https://secure.actblue.com/donate/respect-ed';">
+				<div class="sidebarImage donationImage"></div>
+				<h3> Support Respect(Ed)! </h3>
+				<p> Your donation helps students bring essential and effective consent education into their classrooms.</p>
+		</div>
+			
+		<div id = "smallSideMenu" class = "smallSideMenu">
+  			<i class="smallSideIcon fa fa-bars" aria-hidden="true"></i>
+  			<p class="smallSideText">OUR STORY</p>
+  		</div>
+  	</div>
+  		
+  		<div class="column right">
+    		
+			<h2 class="sectionTitle">Our Story</h2>
+			<p class="sectionText">Respect(Ed) was conceived in 2015 by then high school students Maya Corral and Zoë Pringle. 
+			Corral and Pringle knew the minimal time spent on sex education in health classes was not enough 
+			to address the prevalence of sexual violence, particularly among high school and college students.
+			 They worked together with health teachers and school counselors to draft a comprehensive consent 
+			 and sexuality curriculum to implement at their school. That year, trained student educators 
+			 presented to over 300 students. More than a quarter of those students surveyed said it was 
+			 their first time receiving formal education on these topics.
+			 <br><br>
+			 Over the next several years, Respect(Ed) leaders gathered data, listened to feedback, 
+			 and revised their approach until eventually an expanded, tried-and-trusted program emerged: 
+			 a series of four presentations addressing sexual harassment and assault, consent and healthy 
+			 relationships, gender and sexuality, and normalized violence and bystander intervention. 
+			 <a href="Education.html">The curriculum</a> engages participants by centering discussion, interaction, and anonymous questions. 
+			 It is grounded in real-world situations, and challenges students to think about their own personal 
+			 boundaries and beliefs. It was designed to comply with <a href="ErinsLaw.html">Erin&#39;s Law</a> and fulfills many state 
+			 educational standards as well.
+			 <br><br>
+			 By the time Corral and Pringle graduated, all 1600 students at their school had benefited 
+			 from Respect(Ed) presentations. In 2019 the current student leaders turned Respect(Ed) 
+			 into a nonprofit, hoping to expand the program and extend its reach. Today, we continue to 
+			 support our student educators in the classroom even as we take on new projects and more 
+			 ambitious goals.</p>
+			
+			<h2 class="sectionTitle">Our Founders</h2>
+			
+			<div class="founderBio founderLeft">
+  					<div class="founderbioimage Maya"></div>
+					<h3 class="foundername">Maya Corral</h3>
+					<h4 class="founderpronouns">she/her</h4>
+					<h5 class="founderposition">Co-Founder</h5>
+
+					<p id="founderBio">
+					Maya is a current junior at Barnard College studying American Studies and French & 
+					Francophone Studies. Originally from Eugene, Oregon, she co-founded and directed Respect(Ed)
+					 in 2015. In addition to working with Respect(Ed), she also served on the board of 
+					 Planned Parenthood of Southwestern Oregon, interned in development at Planned Parenthood
+					  Federation of America and the Brennan Center for Justice, and serves as the President of 
+					  Take Back The Night at Columbia University. 
+					</p>
+			</div>
+			<div class="founderBio founderRight">
+					<div class="founderbioimage zoe"></div>
+					<h3 class="foundername">Zoë Pringle</h3>
+					<h4 class="founderpronouns">she/her</h4>
+					<h5 class="founderposition">Co-Founder</h5>
+
+					<p id="founderBio">
+						Zoë is a junior at Brandeis University studying Public Health Policy and Sociology. 
+						She grew up in Eugene, Oregon, where she co-founded and directed Respect(Ed) in her
+						 public high school. After completing a social work internship at the Community Day
+						  Center of Waltham last year, she has taken a focus on disability and housing policy.
+						   When Zoë is not working on consent education, she is fighting for fossil-fuel divestment 
+						   on her campus and adaptive rock climbing.
+					</p>
+				</div>
+	
+  		</div>
+	</div>
+	
+	<!-- Bottom Menu -->
+		<div class="bottomMenu">
+				<div class="leftBottomMenu">
+					<a >
+						<img class="smallLogo" alt="Logo" src="img/MainLogo.png" />
+					</a>
+					<p class="bottomMenuText">Respect(Ed) Peer Education Program is a registered 501(c)(3) nonprofit under EIN 83-4269894. 
+					All donations are fully tax-deductible.</p>
+					<ul>
+						<li>
+							<a class="leftmost fa fa-facebook bottomMenuSocials" href="https://www.facebook.com/respectedpeereducation/"></a>
+							<a href="https://twitter.com/respecteducate" class="fa fa-twitter bottomMenuSocials"></a>
+							<a href="https://www.instagram.com/respecteducate/" class="fa fa-instagram bottomMenuSocials"></a>
+							<a class="donateFooter" href="https://secure.actblue.com/donate/respect-ed">DONATE!</a>
+						</li>
+					</ul>
+				</div>
+				<div class="rightBottomMenu">
+					
+					<ul id="AboutBottomMenu">
+						<li class="mainBottom">
+							<a href="About.html">About</a>
+						</li>
+						<li class="minorBottom">
+							<a href="About.html">What We Do</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Staff.html">Our Team</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Story.html">Our Story</a>
+						</li>
+					</ul>
+					
+					<ul id="EducationBottomMenu">
+						<li class="mainBottom">
+							<a href="Education.html">Education</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Education.html">Our Curriculum</a>
+						</li>
+						<li class="minorBottom">
+							<a href="PeerEdModel.html">The Peer Education Model</a>
+						</li>
+						<li class="minorBottom">
+							<a href="EduPhil.html">Educational Philosophy</a>
+						</li>
+						<li class="minorBottom">
+							<a href="ErinsLaw.html">Erin's Law</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Resources.html">Resources</a>
+						</li>
+						<li class="minorBottom">
+							<a href="AnonQ.html">Anonymous Questions</a>
+						</li>
+					</ul>
+					
+					<ul id="GetInvBottomMenu">
+						<li class="mainBottom">
+							<a href="GetInvolved.html">Get Involved</a>
+						</li>
+						<li class="minorBottom">
+							<a href="GetInvolved.html">Respect(Ed) at Your School</a>
+						</li>
+						<li class="minorBottom">
+							<a href="ContactUs.html">Contact Us</a>
+						</li>
+					</ul>
+					
+					<ul id="WhatsNewMenu">
+						<li class="mainBottom">
+							<a href="WhatsNew.html">What's New</a>
+						</li>
+					</ul>
+					
+				</div>
+		</div>
+		
+		<div id="copyAndCredit">
+				<p>&copy; 2020 Respect(Ed) Peer Education Program   |   Website Developed and Designed by Jenna Everard and Catherine O'Brien</p>
+		</div>
+	
+	<div id="popupSideMenu" class="popupSideMenu">
+  				<div class="popupSideMenuContent">
+  						<div class="SideMenuItemBlock">
+  							<ul class="PopUpSideMenu">
+				    			<li onclick="window.location.href='About.html'" class="PopUpSideMenuItem "><a href="About.html">WHAT WE DO</a></li>
+								<li onclick="window.location.href='Staff.html'" class="PopUpSideMenuItem "><a href="Staff.html">OUR TEAM</a></li>
+								<li onclick="window.location.href='Story.html'" class="PopUpSideMenuItem SmallSideItemactive"><a class="SmallSideMenuactive" href="Story.html">OUR STORY</a></li>
+							</ul>
+							<!-- <div class="PopUpsidebarBlock" onclick="window.location='https://secure.actblue.com/donate/respect-ed';">
+								<div class="PopUpsidebarImage PopUpdonationImage"></div>
+								<h3> Support Respect(Ed)! </h3>
+								<p> Your donation helps students bring essential and effective consent education into their classrooms. </p>
+							</div>-->
+  						</div>
+  				</div>
+  		</div>
+	
+	<script type="text/javascript" src="includes/mobileMenu.js"></script>
+	
+	<script>			
+			var popupButton = document.getElementById("smallSideMenu");
+			popupButton.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='block';*/
+				document.getElementById("popupSideMenu").style.display='block';
+				document.getElementById("popupSideMenu").style.height=document.body.scrollHeight+"px";
+			})
+
+			var fadedPage = document.getElementById("popupSideMenu");
+			fadedPage.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='none';*/
+				document.getElementById("popupSideMenu").style.display='none';
+			})
+
+			var closeButton = document.getElementById("SideMenuclose");
+			closeButton.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='none';*/
+				document.getElementById("popupSideMenu").style.display='none';
+			})
+
+		</script>
+		
+</body>
+
+</html>

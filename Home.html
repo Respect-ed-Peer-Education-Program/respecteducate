@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<meta charset="ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link href="css/main.css" rel="stylesheet" />
+<link href="css/Home.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
+
+<title>Home</title>	
+
+</head>
+
+<body id="homeBody">
+
+	
+	<script type="text/javascript" src="includes/webMenuBar.js"></script>
+	<script type="text/javascript" src="includes/smallWebMenuBar.js"></script>
+	<script type="text/javascript">
+		if(document.getElementById('WideMenu').style.display != "none") {
+		   	document.getElementById("homeMenuButton").classList.add("active");
+		}
+		
+	</script>
+	
+	<div class="spacer"></div>
+	
+	<div class="Home">
+	
+		
+		<div class="homePhotos">
+			<div class="slideshow">
+			</div>
+		</div>
+		
+		<div class="curriculumGraphic">
+		</div>	
+		
+		<div class="homeContent">
+			<p class="homeText">
+			Respect(Ed) is a nonprofit organization run by and for young people, working to provide students 
+			with the tools they need to set the standards for their own health education. 
+			We believe that early and accurate education around sexuality and consent allows youth to lead healthier, 
+			safer lives. With our support, students can successfully advocate for and help realize the education they 
+			deserve.
+			</p>
+		</div>
+		
+		<div class="socials">
+		<!-- Based on code from https://codepen.io/colorlib/pen/GOzroL?editors=1100 -->	
+			
+  			<div id="services">
+  				
+    			<div class="socialIcon"><div class="facebook" onclick="window.location.href='https://www.facebook.com/respectedpeereducation/'">
+        			<a >
+          			<i class="fa fa-facebook" aria-hidden="true"></i>
+        			</a>
+			</div></div>
+    			<div class="socialIcon"><div class="twitter" onclick="window.location.href='https://twitter.com/respecteducate'">
+        			<a >
+          			<i class="fa fa-twitter" aria-hidden="true"></i>
+        			</a>
+     			</div></div>
+    			<div class="socialIcon"><div class="instagram" onclick="window.location.href='https://www.instagram.com/respecteducate/'">
+        			<a >
+          			<i class="fa fa-instagram" aria-hidden="true"></i>
+        			</a>
+      			</div></div>
+  			<div class="socialIcon"><div class="youtube" onclick="window.location.href='https://www.youtube.com/channel/UCn7d7w87lW_E8O2UaM49dcg?view_as=subscriber'">
+        			<a >
+          			<i class="fa fa-youtube" aria-hidden="true"></i>
+        			</a>
+      			</div></div>
+      			</div>
+			
+		<!-- End based on code from https://codepen.io/colorlib/pen/GOzroL?editors=1100 -->	
+		</div>
+		
+		
+		
+		<!-- <div class="homeContact">
+			<h2 class="MissionTitle">Our Mission</h2>
+			<p class="MissionText">
+			To provide resources, support, and advocacy for students working to implement peer 
+			education programs around consent and sexuality at their schools.
+			</p>
+		</div>-->
+		
+		<!-- Bottom Menu -->
+		<div class="bottomMenu">
+				<div class="leftBottomMenu">
+					<a >
+						<img class="smallLogo" alt="Logo" src="img/MainLogo.png" />
+					</a>
+					<p class="bottomMenuText">Respect(Ed) Peer Education Program is a registered 501(c)(3) nonprofit under EIN 83-4269894. 
+					All donations are fully tax-deductible.</p>
+					<ul>
+						<li>
+							<a class="leftmost fa fa-facebook bottomMenuSocials" href="https://www.facebook.com/respectedpeereducation/"></a>
+							<a href="https://twitter.com/respecteducate" class="fa fa-twitter bottomMenuSocials"></a>
+							<a href="https://www.instagram.com/respecteducate/" class="fa fa-instagram bottomMenuSocials"></a>
+							<a class="donateFooter" href="https://secure.actblue.com/donate/respect-ed">DONATE!</a>
+						</li>
+					</ul>
+				</div>
+				<div class="rightBottomMenu">
+					
+					<ul id="AboutBottomMenu">
+						<li class="mainBottom">
+							<a href="About.html">About</a>
+						</li>
+						<li class="minorBottom">
+							<a href="About.html">What We Do</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Staff.html">Our Team</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Story.html">Our Story</a>
+						</li>
+					</ul>
+					
+					<ul id="EducationBottomMenu">
+						<li class="mainBottom">
+							<a href="Education.html">Education</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Education.html">Our Curriculum</a>
+						</li>
+						<li class="minorBottom">
+							<a href="PeerEdModel.html">The Peer Education Model</a>
+						</li>
+						<li class="minorBottom">
+							<a href="EduPhil.html">Educational Philosophy</a>
+						</li>
+						<li class="minorBottom">
+							<a href="ErinsLaw.html">Erin's Law</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Resources.html">Resources</a>
+						</li>
+						<li class="minorBottom">
+							<a href="AnonQ.html">Anonymous Questions</a>
+						</li>
+					</ul>
+					
+					<ul id="GetInvBottomMenu">
+						<li class="mainBottom">
+							<a href="GetInvolved.html">Get Involved</a>
+						</li>
+						<li class="minorBottom">
+							<a href="GetInvolved.html">Respect(Ed) at Your School</a>
+						</li>
+						<li class="minorBottom">
+							<a href="ContactUs.html">Contact Us</a>
+						</li>
+					</ul>
+					
+					<ul id="WhatsNewMenu">
+						<li class="mainBottom">
+							<a href="WhatsNew.html">What's New</a>
+						</li>
+					</ul>
+					
+				</div>
+		</div>
+		
+		<div id="copyAndCredit">
+				<p>&copy; 2020 Respect(Ed) Peer Education Program   |   Website Developed and Designed by Jenna Everard and Catherine O'Brien</p>
+		</div>
+		
+	</div>
+	
+	<script type="text/javascript" src="includes/mobileMenu.js"></script>
+	
+	
+</body>
+
+</html>
