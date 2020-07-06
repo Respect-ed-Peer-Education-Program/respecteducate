@@ -1,0 +1,49 @@
+/**
+ * Styling specific to "What's New" page
+ */
+ 
+.newsRight {
+	display: flex;
+}
+.leftSubCol {
+	float: left;
+	width: 100%;
+	
+}
+.rightSubCol {
+	float: right;
+	width: 100%;
+}
+.newsBlock {
+	margin: 10px;
+  	border-radius: 15px;
+  	padding: 10px;
+  	background-color: white;
+  	box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  	text-align: center;
+}
+.articleLink {
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.07);
+}
+.articleLink:hover {
+	background-color: #D93A32; 
+	color: white;
+}
+.whatsNewTitle {
+	text-align: center;
+	color: #0A101F;
+	font-style: italic;
+}
+.articleTitle {
+	font-family: Garamond;
+}
+.articleDate {
+	font-family: Garamond;
+}
+.articleSummary {
+	font-family: Garamond;
+}
+ 

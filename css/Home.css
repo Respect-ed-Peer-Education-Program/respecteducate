@@ -1,0 +1,178 @@
+/**
+ * Styling specific to "Home" page
+ */
+ 
+
+/*.bigImage {
+	background-image: url("/img/MainLogo.png");
+	height: 250px;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}*/
+.homePhotos {
+	height: 500px;
+	box-sizing: border-box;
+	background-color: #D93A32;
+}
+.curriculumGraphic {
+	height: 400px;
+	box-sizing: border-box;
+}
+.homeContent {
+	padding: 1px;
+	height: 50%;
+	width: 100%;
+	box-sizing: border-box;
+	background: #D93A32;
+}
+.homeText {
+	width: 80%;
+	padding: 5% 10%;
+	font-size: 25px;
+	line-height: 1.5;
+	text-align: center;
+	color: white;
+}
+.socials {
+	height: 160px;
+	box-sizing: border-box;
+	padding: 0 20% 0 0;
+	display: flex;
+	flex-direction: column;
+}
+@media screen and (max-width: 500px) {
+	.socials {
+		flex-direction: row !important;
+		height: 100%;
+		padding-right: 0;
+	}
+	#services {
+		width: 60% !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.socialIcon {
+		float: none !important;
+	}
+}
+
+/*Formatting for social media from: https://codepen.io/colorlib/pen/GOzroL?editors=1100*/
+
+#services {
+  text-align: center;
+  height: 100%;
+}
+.socialIcon {
+  display: inline-block;
+  margin: 5%;
+  list-style: none;
+  text-align: center;
+  float: right;
+}
+.socialIcon div {
+  width: 80px;
+  height: 80px;
+  color: #D93A32;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 80px;
+  font-size: 40px !important;
+  background-color: #D93A32;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.socialIcon a {
+  color: #fff;
+}
+.socialIcon div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+
+/* End formatting from https://codepen.io/colorlib/pen/GOzroL?editors=1100*/
+
+/*Makes Social Media Section Responsive */
+@media screen and (max-width:1010px) and (min-width:831px) {
+	.socials {
+		height: 100%;
+		box-sizing: border-box;
+		padding: 0 15% 0 0 !important;
+	}
+}
+@media screen and (max-width:830px) and (min-width:757px) {
+	.socials {
+		height: 100%;
+		box-sizing: border-box;
+		padding: 0 13% 0 0 !important;
+	}
+}
+@media screen and (max-width:756px) and (min-width:701px) {
+	.socials {
+		height: 100%;
+		box-sizing: border-box;
+		padding: 0 10% 0 0 !important;
+	}
+}
+@media screen and (max-width:700px) and (min-width:612px) {
+	.socials {
+		height: 100%;
+		box-sizing: border-box;
+		padding: 0 5% 0 0 !important;
+	}
+}
+@media screen and (max-width:611px) and (min-width:551px) {
+	.socials {
+		height: 100%;
+		box-sizing: border-box;
+		padding: 0 0 0 0 !important;
+	}
+}
+@media screen and (max-width:550px) and (min-width:501px) {
+	.socialIcon div {
+	  width: 70px !important;
+	  height: 70px !important;
+	  color: #D93A32;
+	  font-size: 35 px !important;
+	  text-align: center;
+	  line-height: 70px !important;
+	  font-size: 35px !important;
+	  background-color: #D93A32;
+	  transition: all 0.5s ease;
+	  cursor: pointer;
+	}
+	.socialIcon {
+	  height: 100%;
+	  display: inline-block;
+	  margin: 5%;
+	  margin-top: 8% !important;
+	  list-style: none;
+	  text-align: center;
+	  float: right;
+	}
+	.socials {
+		height: 100%;
+		box-sizing: border-box;
+		padding: 0 0 0 0 !important;
+	}
+}
+
+/*.MissionTitle {
+	right: 50%;
+	padding-top: 3%;
+	font-size: 50px;
+	color: #0A101F;
+	margin: 0px;
+	text-align: center;
+	text-shadow: 1px 1px 0 white,
+				 2px 2px 0 #0A101F;
+}
+.MissionText {
+	margin-top: 5%;
+	font-size: 25px;
+	line-height: 40px;
+	padding: 0% 10%;
+	color: #0A101F;
+	text-align: center;
+	font-family: Garamond;
+}*/

@@ -1,0 +1,914 @@
+/**
+ * Contains all css properties that are shared amongst all/most html pages.
+ * 
+ * For consistency, the color scheme used is as follows:
+ *     Dark Blue: #0A101F
+ *     Red: #D93A32
+ *     White: #D93A32
+ *     Light Grey: rgba(0,0,0,0.07)
+ */
+
+@import "compass/css3";
+@charset "ISO-8859-1";
+@import "compass/css3";
+
+.PageBody {
+	width:100%;
+	margin: 10px;
+}
+body {
+	background-color: rgba(0,0,0,0.07);
+	margin: 0;
+	/*font-family: 'Raleway Dots', sans-serif;*/
+	font-family: Garamond;
+}
+
+
+/*Styling for upper menu*/
+
+.Menu {
+	background-color: #0A101F;
+	padding: 0px;
+	overflow: hidden;
+	height: 90px;
+	text-transform: uppercase;
+}
+.MenuRight {
+	float:right;
+}
+.logo {
+	float:left;
+	display: block;
+  	padding: 0px;
+  	border: 0px;
+  	margin: 0px;
+  	height: 80px;
+  	margin-top: 3px;
+}
+.menuBarLogoImage {
+	height: 100%;
+	margin-left: 10px;
+}
+.MenuRight a {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+	padding: 12px 20px;
+	line-height: 66px;
+}
+.MenuRight a:hover, .menuButton:hover {
+	background-color: #D93A32;
+	color: white;
+}
+.MenuRight a.active, .menuButton.active {
+	background-color: #FFFFFF;
+	color: #0A101F;
+}
+.expandingMenuItem {
+	overflow: hidden;
+	float: left;
+}
+.menuButton {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	color: white;
+	padding: 12px 20px;
+	line-height: 66px;
+	cursor: pointer;
+	border: none;
+	background-color: #0A101F;
+	border-radius: 0px;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+.expandingMenuItem:hover .ItemsinExpandingMenu{
+	display: block;
+}
+.ItemsinExpandingMenu {
+	position: absolute;
+	display: none;
+	background-color: white;
+	color: black;
+	min-width: 250px;
+	margin-top: 90px;
+	z-index: 1;
+}
+.ItemsinExpandingMenu a{
+	display: block;
+	float: none;
+	color: black;
+	padding: 1% 2%;
+	cursor: pointer;
+	line-height: 4;
+}
+.MenuLeft {
+	padding: 0px;
+}
+.MenuDonateButton {
+	margin-top: 2%;
+	margin-right: 40px;
+	margin-left: 20px;
+	line-height: 30px !important;
+	background-color: #D93A32;
+	border-radius: 10%;
+	transition: transform 0.5s;
+}
+.MenuDonateButton:hover {
+	background-color: #b52f28;
+	transform: scale(1.15);
+}
+.AboutExpanding:hover .AboutMenuButton{
+	background-color: #D93A32;
+	color: white;
+}
+.EducationExpanding:hover .EducationButton{
+	background-color: #D93A32;
+	color: white;
+}
+.GetInvExpanding:hover .GetInvButton {
+	background-color: #D93A32;
+	color: white;
+}
+
+/*Adjustments for smaller screens / mobile browsers*/
+@media screen and (max-width:1046px) {
+	.smallMenu {
+		display: block;
+	}
+	.Menu {
+		display: none;
+	}
+}
+
+@media screen and (min-width:1047px) {
+	.smallMenu {
+		display: none;
+	}
+	.Menu {
+		display: block;
+	}
+}
+
+
+
+	.smallMenu {
+		background-color: #0A101F;
+		padding: 0px;
+		overflow: hidden;
+		height: 90px;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	.SmallMenuLeft {
+		height: 100%;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+	}
+	.Smalllogo {
+		float:left;
+		display: block;
+	  	padding: 0px;
+	  	border: 0px;
+	  	margin: 0px;
+	  	height: 100%;
+	}
+	.smallmenuBarLogoImage {
+		height: 100%;
+	}
+	#SmallMenuIcon {
+		float: right;
+		color: white;
+		margin-top: 20px;
+		margin-right: 5%;
+		cursor: pointer;
+	}
+	.menuIconImage {
+		font-size: 40px !important;
+	}
+	.SmallItemsinExpandingMenu {
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.25s ease-out;
+	}
+	.SmallItemsinExpandingMenu a {
+		display: block;
+		background-color: #0A101F;
+		font-size: 14px;
+		color: white;
+		padding: 3%;
+		padding-left: 20% !important;
+		text-align: left;
+		text-decoration: none;
+		border-radius: 0;
+	}
+	.SmallItemsinExpandingMenu a:hover {
+		cursor: pointer;
+		background-color: white;
+		color: #0A101F;
+	}
+	.popUpMenuLogo {
+		width: 90%;
+		padding: 5% 0 0 11%;
+	}
+	.SmallmenuElement {
+		display: block;
+		background-color: #0A101F;
+		color: white;
+		padding: 5%;
+		padding-left: 10% !important;
+		text-align: left;
+		text-decoration: none;
+		border-radius: 0;
+	}
+	.SmallmenuElement:hover {
+		cursor: pointer;
+		background-color: white;
+		color: #0A101F;
+	}
+	.SmallmenuButton {
+		width: 100%;
+		background-color: #0A101F;
+		color: white;
+		padding: 5%;
+		padding-left: 10% !important;
+		text-align: left;
+		border: none;
+		border-radius: 0;
+	}
+	.SmallmenuButton:hover {
+		cursor: pointer;
+		background-color: white;
+		color: #0A101F;
+	}
+	.SmallmenuButton:after {
+		content: '\002B';
+		color: white;
+		font-size: 25px;
+		font-weight: bolder;
+		float: right;
+		margin-top: -5px;
+	}
+	.SmallmenuButton:hover:after {
+		color: #0A101F;
+	}
+	.SmallmenuButton.active:after {
+		content: '\2212';
+		color: white;
+		font-size: 25px;
+		font-weight: bolder;
+		float: right;
+		margin-top: -5px;
+	}
+	.SmallmenuButton.active:hover:after {
+		color: #0A101F;
+	}
+	.SmallMenuDonateButton {
+		background-color: #D93A32;
+		padding: 10%;
+		margin: 10%;
+		margin-bottom: 15%;
+		border-radius: 15px;
+		text-align: center;
+		font-size: 20px;
+	}
+	.popupMenu {
+		position: absolute;
+		display: none;
+		z-index: 1000;
+		width: 100%;
+		height: 100px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0,0.5);
+		animation-name: fadeIn;
+		animation-duration: 0.5s;
+	
+	}
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	.close {
+	
+		border-radius: 50px;
+		cursor: pointer;
+		position: absolute;
+		width: 100px;
+		height: 20px;
+		font-size: 40px;
+		text-align: center;
+		/*background-color: black;*/
+		color: white;
+		text-shadow: black;
+		top: 30px;
+		left: -13px;
+		z-index: 100000;
+		font-weight: bolder;
+		text-align: center;
+		font-family: auto !important;
+		text-shadow: 3px 1px #0A101F;
+	}
+	.close:hover {
+	}
+	.popupMenuContent {
+		height: 100%;
+		width: 300px;
+		right: 0;
+		animation-name: slideIn;
+		animation-duration: 1s;
+		background-color: white;
+		position: fixed;
+		z-index: 10000 !important;
+		background-color: #0A101F;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		-ms-overflow-style: none;
+	}
+	@keyframes slideIn {
+		from {
+			right: -400px;
+			opacity: 0;
+		}
+		to {
+			right: 0px;
+			opacity: 1;
+		}
+	}
+
+	.popupMenuContent::-webkit-scrollbar {
+		width: 0 !important;
+        }
+
+
+
+/*Styling for Bottom Menu*/
+
+.bottomMenu {
+	height: 330px;
+	background-color: #0A101F;
+	color: white;
+	width: 100%;
+	clear: both;
+	font-family: Garamond;
+}
+.bottomMenu li {
+	list-style: none;
+	width: 100%;
+}
+.bottomMenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.rightBottomMenu {
+	width: 55%;
+	float: right;
+	padding: 4% 2% 2% 0;
+}
+.smallLogo{
+	height: 85px;
+	padding-top: 2%;
+}
+.bottomMenuText {
+	width: 100%;
+	padding-left: 2.5%;
+	line-height: 25px;
+	font-size: 15px;
+	color: #dbdbdb;
+}
+.bottomMenuSocials{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	margin: 20px 10px 10px 10px;
+	background-color: #D93A32;
+	border-radius: 50%;
+	height: 16px;
+	width: 16px;
+	text-align: center;
+}
+.bottomMenuSocials:hover {
+	background-color: #b52f28;
+}
+.leftmost {
+	margin-left: 2.5% !important;
+}
+.leftBottomMenu {
+	width: 35%;
+	float: left;
+	padding: 2% 0 2% 2%;
+}
+.leftBottomMenu ul{
+	margin-left: 1%;
+}
+.mainBottom {
+	/*padding: 20px 0 0 0;*/
+	padding-bottom: 13px !important;
+}
+.mainBottom a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+}
+.minorBottom {
+	padding: 8px 0;
+}
+.minorBottom a{
+	text-decoration: none;
+	color: #dbdbdb;
+}
+#AboutBottomMenu {
+	text-decoration: none;
+	float: left;
+	padding-left: 2%;
+	padding-right: 4%;
+}
+#AboutBottomMenu a:hover {
+	color: white;
+	text-decoration:underline;
+	cursor: pointer;
+}
+#EducationBottomMenu {
+	text-decoration: none;
+	float: left;
+	padding-left: 2%;
+	padding-right: 4%;
+}
+#EducationBottomMenu a:hover {
+	color: white;
+	text-decoration:underline;
+	cursor: pointer;
+}
+#GetInvBottomMenu {
+	text-decoration: none;
+	float: left;
+	padding-left: 2%;
+	padding-right: 4%;
+}
+#GetInvBottomMenu a:hover {
+	color: white;
+	text-decoration:underline;
+	cursor: pointer;
+}
+#WhatsNewMenu {
+	text-decoration: none;
+	float: left;
+	padding-left: 2%;
+}
+#WhatsNewMenu a:hover {
+	color: white;
+	text-decoration:underline;
+	cursor: pointer;
+}
+.donateFooter {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	margin: 20px 10px 10px 10px;
+	background-color: #D93A32;
+	border-radius: 15px;
+	text-align: center;
+}
+.donateFooter:hover {
+	background-color: #b52f28;
+}
+#copyAndCredit {
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	background-color: #0A101F;
+	height: 10%;
+	margin:0;
+	padding: 1% 0 2% 0;
+	clear: both;
+}
+#copyAndCredit p {
+	margin: 0;
+	padding: 0;
+}
+
+/*responsive styling for bottom menu*/
+@media screen and (max-width: 1188px) {
+	#WhatsNewMenu {
+		padding-top: 6%;
+	}
+	.rightBottomMenu {
+		padding: 4% 0 2% 0 !important;
+	}
+}
+@media screen and (max-width: 980px) {
+	.smallLogo {
+		height: 70px !important;
+	}
+	.leftBottomMenu {
+		width: 27% !important;
+	}
+	.bottomMenuSocials {
+		margin: 20px 2px 10px 2px !important;
+		padding: 7px !important;
+		font-size: 16px !important;
+	}
+	.donateFooter {
+		padding: 7px !important;
+		margin: 20px 0 10px 2px !important;
+	}
+	.rightBottomMenu {
+		width: 65% !important;
+		float: left !important;
+		margin-left: 5% !important;
+	}
+}
+@media screen and (max-width: 830px) {
+	#AboutBottomMenu {
+		padding-right: 1.5% !important;
+	}
+	#EducationBottomMenu {
+		padding-left: 1% !important;
+		padding-right: 1.5% !important;
+	}
+	#GetInvBottomMenu {
+		padding-left: 1% !important;
+		padding-right: 0 !important;
+	}
+	#WhatsNewMenu {
+		padding-left: 1% !important;
+	}
+}
+@media screen and (max-width: 776px) {
+	.leftBottomMenu {
+		width: 100% !important;
+		padding: 0 !important;
+		text-align: center !important;
+
+	}
+	.smallLogo {
+		height: auto !important;
+		width: 60% !important;
+		padding-top: 13px !important;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.bottomMenuText {
+		width: auto !important;
+		margin-left: 3% !important;
+		margin-right: 3% !important;
+		margin-bottom: 1% !important;
+		text-align: center !important;
+		padding-left: 0 !important;
+	}
+	.bottomMenuSocialGroup {
+	}
+	.bottomMenuSocialGroupUl {
+		width: auto !important;
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	#AboutBottomMenu {
+		width: 100% !important;
+		text-align: center;
+	}
+	#EducationBottomMenu {
+		width: 100% !important;
+		text-align: center;
+	}
+	#GetInvBottomMenu {
+		width: 100% !important;
+		text-align: center;
+	}
+	#WhatsNewMenu {
+		width: 100% !important;
+		text-align: center;
+		padding-top: 0 !important;
+	}
+	.rightBottomMenu {
+		width: 95% !important;
+		margin: 0 !important;
+		padding-bottom: 0 !important;
+		padding-top: 0 !important;
+	}
+	.mainBottom {
+		margin-top: 20px !important;
+	}
+	.minorBottom {
+		padding: 4px 0 !important;
+	}
+	.bottomMenu {
+		height: 770px !important;
+	}
+	#copyAndCredit {
+		padding: 0 2% 20px 2% !important;
+	}
+}
+
+
+/*General Styling for page titles and fonts*/
+
+.sectionTitle {
+	right: 50%;
+	padding: 1.5% 1% 1%;
+	font-size: 40px;
+	color: #0A101F;
+	margin: 0px;
+	text-align: left;
+	text-shadow: 1px 1px 0 white,
+				 2px 2px 0 #0A101F;
+}
+.sectionText {
+	font-family: Garamond;
+	font-size: 19px;
+	line-height: 1.5;
+	padding: 0 2% 0 1%;
+}
+
+
+/*Styling for side bar navigations*/
+
+.SideMenu {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A101F;
+}
+.SideMenuItem {
+  float: left;
+}
+.SideMenuItem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 0px;
+  text-decoration: none;
+  width: 100%;
+  cursor: pointer;
+}
+.SideMenuItem a:hover:not(.active) {
+  background-color: #D93A32;
+  transition: background 0.5s ease;
+}
+.SideMenuItem a.active {
+	background-color: #FFFFFF;
+	color: #0A101F;
+}
+.column, .SideMenu, .SideMenuItem, .row {
+  box-sizing: border-box;
+  width: 100%;
+}
+.column {
+  float: left;
+  padding: 20px 10px 10px 0px;
+}
+.left {
+  width: 23%;
+}
+.right {
+  width: 77%;
+  padding: 10px 10px 10px 10px;
+}
+
+/*Sidebar Styling for Mobile*/
+@media screen and (max-width:900px) {
+	.left {
+		width: 100%;
+		padding: 0;
+	}
+	.right {
+		width: 100%;
+		padding-left: 4%;
+		padding-right: 3%;
+	}
+	/*.SideMenuItem {
+		width: 30% !important;
+	}
+	.SideMenuItem a {
+		padding: 25px 0 !important;
+		height: 30px !important;
+	}
+	.sidebarImage {
+		display: none;
+	}
+	.sidebarBlock {
+		display: none !important;
+	}*/
+}
+
+@media screen and (max-width:900px) {
+	.smallSideMenu {
+		display: block !important;
+	}
+	.SideMenu {
+		display: none !important;
+	}
+	.sidebarBlock {
+		display: none !important;
+	}
+}
+@media screen and (min-width:901px) {
+	.smallSideMenu {
+		display: none !important;
+	}
+	.SideMenu {
+		display: block !important;
+	}
+	.sidebarBlock {
+		display: block !important;
+	}
+}
+
+/*Styling for small "side" menu*/
+.smallSideMenu {
+	height: 50px;
+	background-color: white;
+	color: #0A101F;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	width: 75%;
+	margin-left: 12.5%;
+	border-radius: 20px;
+	box-shadow: 1px 1px #0A101F;
+}
+.smallSideMenu:hover {
+	background-color: #D93A32;
+	color: white;
+	cursor: pointer;
+}
+.smallSideText {
+	float: left;
+	box-sizing: border-box;
+	font-family: Garamond;
+	font-size: 18px;
+	margin: 0;
+	line-height: 50px;
+}
+.smallSideIcon {
+	margin-top: 16px;
+	margin-left: 16px;
+	margin-right: 16px;
+	float: left;
+	box-sizing: border-box;
+}
+
+/*Styling for popup side menu*/
+.SideMenuItemBlock {
+	width: 100%;
+	height: 100%;
+}
+.popupSideMenu {
+	position: absolute;
+	cursor: pointer;
+	display: none;
+	z-index: 1000;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	animation-name: smallfadeIn;
+	animation-duration: 0.5s;
+
+}
+
+/*not to be confused with the above, this is the <ul>*/
+.PopUpSideMenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.PopUpSideMenuItem {
+	padding: 20px;
+	text-align: center;
+	background-color: #0A101F;
+}
+.PopUpSideMenuItem a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+.PopUpSideMenuItem:hover {
+	background-color: white;
+}
+.PopUpSideMenuItem:hover a {
+	color: #0A101F;
+}
+.SmallSideMenuactive {
+	color: #0A101F !important;
+}
+.SmallSideItemactive {
+	background-color: white !important;
+}
+@keyframes smallfadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.SideMenuclose {
+
+	border-radius: 50px;
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	font-size: 30px;
+	text-align: center;
+	/*background-color: black;*/
+	color: white;
+	text-shadow: black;
+	top: 1%;
+	left: -7%;
+	z-index: 100000;
+	font-weight: bolder;
+	text-align: center;
+	text-shadow: 3px 1px #0A101F;
+}
+
+.popupSideMenuContent {
+	width: 100%;
+	bottom: 0;
+	animation-name: SmallslideIn;
+	animation-duration: 0.7s;
+	background-color: white;
+	position: fixed;
+	z-index: 10000 !important;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+}
+.popupSideMenuContent::-webkit-scrollbar {
+	width: 0 !important;
+}
+@keyframes SmallslideIn {
+	from {
+		bottom: -400px;
+		opacity: 0;
+	}
+	to {
+		bottom: 0px;
+		opacity: 1;
+	}
+}
+
+
+/*Styling for Donation Button on Sidebar*/
+
+.sidebarBlock {
+  width: 100%;
+  padding-bottom: 15px;
+  overflow: hidden;
+  background-color: #D93A32;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  color: white;
+  transition: transform 0.5s;
+}
+.sidebarBlock:hover {
+	background-color: white;
+	color: #D93A32;
+	transform: scale(1.05);
+	box-shadow: 2px 4px 4px #0A101F;
+}
+.sidebarBlock p {
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+.sidebarImage {
+	display: block;
+  	padding-top: 70%;
+  	border: 0px;
+  	margin: 0px;
+  	background-size: contain;
+  	background-repeat: no-repeat;
+	max-width:100%;
+	max-height:100%;
+}
+.donationImage {
+	background-image: url("../img/donation.jpeg");
+}
+
+
+/* Styling for Social Media Icons */
+
+.socialMedia {
+	color:#D93A32;
+	text-decoration:none;
+	float:right;
+}

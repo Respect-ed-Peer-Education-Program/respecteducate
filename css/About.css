@@ -1,0 +1,215 @@
+/**
+ * Styling specific to "About" pages/subpages
+ */
+
+
+/*Styling for Main About Page*/
+
+.WeBelieve {
+	margin: 2%;
+	list-style: none;
+	margin-left: 0;
+	line-height: 1.5;
+}
+.sectionText {
+	line-height: 1.5;
+}
+
+.founderLeft {
+	width: 40%;
+	float: left;
+}
+.founderRight {
+	width: 40%;
+	float: right;
+	margin-right: 3% !important;
+}
+.founderBio {
+  margin: 140px 0 7% 0;
+  border-radius: 15px;
+  padding: 0 20px 20px;
+  box-shadow: 4px 4px 0px #D93A32, 10px 10px 0px #0A101F;
+  text-align: center;
+  background-color: white;
+}
+.founderbioimage {
+   background-size: cover;
+  background-position: center;
+  border-radius: 200px;
+  box-shadow: 0 0 0 10px #0A101F;
+  height: 250px;
+  width: 250px;
+  position: relative;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: -100px;
+  top: -100px;
+}
+.foundername {
+  font-size: 32px;
+  font-family: "Sofia";
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #D93A32;
+}
+.founderposition {
+  font-size: 16px;
+  color: #0A101F;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.founderpronouns {
+  font-size: 16px;
+  font-style: italic;
+  color: #0A101F;
+  letter-spacing: 1px;
+}
+#founderBio {
+	line-height: 1.25;
+}
+@media screen and (max-width: 700px) {
+	.founderBio {
+		width: 90%;
+	}
+}
+
+/*Styling for Bio/Team Page*/
+
+.bioSubtitle {
+	text-shadow: none;
+	font-size: 32px;
+	font-style: oblique;
+	font-weight: 500;
+}
+.comingSoon {
+	margin: 5% 0 7% 1%;
+	padding: 0 !important;
+}
+.bioPageTitle {
+	padding-left: 10px !important;
+}
+.zoe {
+  background-image: url("../img/IMG_9837.jpg");
+}
+.Maya {
+  background-image: url("../img/MayaHeadshot.jpg");
+}
+.Jade {
+  background-image: url("../img/JadeHeadshot.jpeg");
+}
+.Jesse {
+  background-image: url("../img/JesseHeadshot.jpg");
+}
+.rightBioCol {
+	
+}
+.Bio {
+  margin: 14% 3% 5% 1%;
+  border-radius: 15px;
+  padding: 0 20px 20px;
+  box-shadow: 4px 4px 0px #D93A32, 10px 10px 0px #0A101F;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+}
+.thebios {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+
+@media screen and (max-width: 1096px) {
+	.Bio {
+		width: 25% !important;
+	}
+	.bioimage {
+		background-size: cover;
+		  background-position: center;
+		  border-radius: 150px;
+		  box-shadow: 0 0 0 7px #0A101F !important;
+		  height: 120px !important;
+		  width: 120px !important;
+		  position: relative;
+		  margin: auto;
+		  margin-top: 0px;
+		  margin-bottom: -70px !important;
+		  top: -70px !important;
+	}
+}
+@media screen and (max-width: 750px) {
+	.thebios {
+		flex-wrap: wrap;
+	}
+	.bioimage {
+	  background-size: cover;
+	  background-position: center;
+	  border-radius: 150px;
+	  box-shadow: 0 0 0 10px #0A101F !important;
+	  height: 200px !important;
+	  width: 200px !important;
+	  position: relative;
+	  margin: auto;
+	  margin-top: 0px;
+	  margin-bottom: -100px !important;
+	  top: -100px !important;
+	}
+	.Bio {
+		width: 100% !important;
+		margin-top: 150px;
+	}
+	.founderRight {
+		float: left !important;
+	}
+}
+
+.leftBios {
+	width: 100%;
+}
+.rightBios {
+	width: 100%;
+}
+.bioimage {
+  background-size: cover;
+  background-position: center;
+  border-radius: 150px;
+  box-shadow: 0 0 0 10px #0A101F;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: -100px;
+  top: -100px;
+}
+.name {
+  font-size: 32px;
+  font-family: "Sofia";
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #D93A32;
+}
+.position {
+  font-size: 16px;
+  color: #0A101F;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.pronouns {
+  font-size: 16px;
+  font-style: italic;
+  color: #0A101F;
+  letter-spacing: 1px;
+}
+
+.bioInfo {
+	color: #0A101F;
+	font-size: 16px;
+  	line-height: 22px;
+}
+#zoePersonInfo, #mayaPersonInfo, #jadePersonInfo, #jessePersonInfo {
+	color: #D93A32;
+	font-size: 16px;
+	max-height: 0;
+	overflow: hidden;
+  	line-height: 22px;
+}

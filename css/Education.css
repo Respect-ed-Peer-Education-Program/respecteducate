@@ -1,0 +1,159 @@
+/**
+ * Styling specific to "Education" pages/subpages
+ */
+
+.EduSubtitle {
+ 	text-shadow: none;
+	font-size: 22px;
+	font-style: oblique;
+	font-weight: 500;
+	padding-left: 1%;
+ }
+ .EduSubtitleB {
+  	text-shadow: none;
+	font-size: 22px;
+	font-weight: bolder;
+	padding-left: 1%;
+ }
+ .resourceTitle {
+ 	font-style: italic;
+ }
+ .EduSideMenu {
+ }
+ .eduColRight {
+ 	padding-bottom: 5%;
+ }
+ .eduColLeft {
+ }
+ .EduSources {
+ 	padding-left: 1%;
+ 	font-weight: bold;
+ 	font-size: 22px;
+ }
+ .ErinButton {
+ 	padding: 30px;
+ 	margin-left: 1%;
+	 margin-bottom: 50px;
+ 	background-color: white;
+ 	color: #0A101F;
+ 	box-shadow: 4px 4px 0px #D93A32, 10px 10px 0px #0A101F;
+ }
+ .ErinButton:hover {
+ 	background-color: #0A101F;
+ 	color: white;
+ 	cursor: pointer;
+ }
+ .immtrb {
+	color: #D93A32;
+	font-weight: 600;
+	margin-top: 5%;
+	font-size: 18px;
+	font-family: Garamond;
+}
+.QButton {
+	background-color: #0A101F;
+	font-family: Garamond;
+	padding: 2%;
+	color: white;
+	cursor: pointer;
+	width: 97%;
+	border: 1px outset;
+	text-align: left;
+	font-size: 19px;
+	margin-left: 1%;
+	padding-left: 1%;
+}
+.QButton::before {
+	content: '\21E9';
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+	float: right;
+}
+.QButton.active{
+	background-color: white;
+	color: #0A101F;
+}
+.QButton:hover {
+	background-color: white;
+	color: #0A101F;
+}
+.QButton.active::before{
+	content: "\21E7";
+	color: #0A101F;
+	font-size: 25px;
+	font-weight: bolder;
+	margin-top: -8px;
+	float: right;
+}
+.QButton:hover::before{
+	color: #0A101F;
+}
+.QResponse {
+	color: #0A101F;
+	font-size: 19px;
+	font-family: Garamond;
+  	line-height: 22px;
+}
+.QResponseDiv {
+	margin-left: 3%;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.25s ease-out;
+  	margin: 1% 3% 1% 3%;
+}
+#googleFormContact {
+	width: 50% !important;
+	height: 1050px;
+	font-family: Garamond;
+}
+#googleFormContact div {
+	width: 50% !important;
+}
+.textLeft {
+	width: 41.5%;
+	margin: 0;
+	padding-top: 2%;
+	padding-left:0.5%;
+	padding-right:0;
+	display: block;
+	float: left;
+}
+@media screen and (max-width: 730px) {
+	.textLeft {
+		width: 100% !important;
+	}
+	.formRight {
+		width: 100% !important;
+		padding-top: 0 !important;
+		float: none !important;
+	}
+	.immtrb {
+		margin-top: 0 !important;
+	}
+}
+
+.formRight {
+	width: 57%;
+	margin: 0;
+	margin-top: 1%;
+	padding: 0;
+	padding-top:2.5%;
+	display: block;
+	float: right;
+}
+
+.resourceButton {
+	margin-left: 1%;
+	margin-top: 2%;
+	padding: 10px;
+	margin-bottom: 0;
+	background-color: #0A101F;
+	color: white;
+	border: none;
+}
+.resourceButton:hover {
+	color: white;
+	background-color: #D93A32;
+	cursor: pointer;
+}
