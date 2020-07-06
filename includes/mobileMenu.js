@@ -37,7 +37,7 @@
    var Abouta = document.createElement('a');
    Abouta.href = "About.html";
    Abouta.classList.add("newPage");
-   Abouta.innerHTML = "What We Do";
+   Abouta.innerHTML = "Our Mission";
    
    var AboutStaff = document.createElement('a');
    AboutStaff.href = "Staff.html";
