@@ -16,8 +16,11 @@
 	background-color: #D93A32;
 }
 .curriculumGraphic {
-	height: 400px;
+	height: 100%;
 	box-sizing: border-box;
+}
+img[usemap], map area {
+	outline: none;
 }
 .homeContent {
 	padding: 1px;
