@@ -87,7 +87,7 @@
    
    var PeerEdModel = document.createElement('a');
    PeerEdModel.href = "PeerEdModel.html";
-   PeerEdModel.innerHTML = "The Peer Education Model";
+   PeerEdModel.innerHTML = "Peer Education Model";
 
    var EduPhil = document.createElement('a');
    EduPhil.href = "EduPhil.html";
