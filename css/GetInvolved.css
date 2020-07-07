@@ -17,12 +17,12 @@
 }
 .GetStartedButton {
 	cursor: pointer;
-	padding: 15px;
+	padding: 17px;
 	margin-left: 1%;
-	color:#0A101F;
-	background-color: white;
-	border-style: inset;
-	border-radius: 5px;
+	font-size: 15px;
+	color: white;
+	background-color: #0A101F;
+	border-style: none;
 }
 .GetStartedButton:hover {
 	color: white;
