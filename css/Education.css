@@ -28,7 +28,9 @@
 	float: left;
 }
 @media screen and (max-width: 650px) {
-	width: 100% !important;
+	.funkyInfographic {
+		width: 100% !important;
+	}
 }
  .resourceTitle {
  	font-style: italic;
