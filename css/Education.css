@@ -121,6 +121,9 @@ img[usemap], map area {
 	font-family: "Open Sans";
   	line-height: 1.5;
 }
+.QResponse a {
+	color: #D93A32;
+}
 .QResponseDiv {
 	margin-left: 3%;
 	max-height: 0;
