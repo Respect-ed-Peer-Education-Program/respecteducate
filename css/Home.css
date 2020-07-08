@@ -31,6 +31,7 @@ img[usemap], map area {
 .homeText {
 	width: 80%;
 	padding: 5% 10%;
+	margin: 0;
 	font-size: 25px;
 	line-height: 1.75;
 	text-align: center;
