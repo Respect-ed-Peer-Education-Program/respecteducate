@@ -23,7 +23,6 @@ img[usemap], map area {
 	outline: none;
 }
 .homeContent {
-	padding: 1px;
 	height: 50%;
 	width: 100%;
 	box-sizing: border-box;
@@ -33,7 +32,7 @@ img[usemap], map area {
 	width: 80%;
 	padding: 5% 10%;
 	font-size: 25px;
-	line-height: 1.5;
+	line-height: 1.75;
 	text-align: center;
 	color: white;
 }
