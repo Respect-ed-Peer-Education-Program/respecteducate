@@ -358,7 +358,7 @@ body {
 /*Styling for Bottom Menu*/
 
 .bottomMenu {
-	height: 330px;
+	height: 350px;
 	background-color: #0A101F;
 	color: white;
 	width: 100%;
@@ -509,14 +509,20 @@ body {
 
 /*responsive styling for bottom menu*/
 @media screen and (max-width: 1188px) {
-	#WhatsNewMenu {
-		padding-top: 6%;
-	}
+	
 	.rightBottomMenu {
 		padding: 4% 0 2% 0 !important;
 	}
 }
+@media screen and (max-width: 1139px) {
+	#WhatsNewMenu {
+		padding-top: 6% !important;
+	}
+}
 @media screen and (max-width: 980px) {
+	#WhatsNewMenu {
+		padding-top: 0 !important;
+	}
 	.smallLogo {
 		height: 70px !important;
 	}
@@ -536,6 +542,11 @@ body {
 		width: 65% !important;
 		float: left !important;
 		margin-left: 5% !important;
+	}
+}
+@media screen and (max-width: 966px) {
+	#WhatsNewMenu {
+		padding-top: 6% !important;
 	}
 }
 @media screen and (max-width: 830px) {
@@ -615,7 +626,7 @@ body {
 		padding: 4px 0 !important;
 	}
 	.bottomMenu {
-		height: 770px !important;
+		height: 790px !important;
 	}
 	#copyAndCredit {
 		padding: 0 2% 20px 2% !important;
