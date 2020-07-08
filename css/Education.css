@@ -53,6 +53,9 @@
 img[usemap], map area {
 	outline: none;
 }
+#ImageKey {
+	width: 80%;
+}
  .ErinButton {
  	padding: 30px;
  	margin-left: 1%;
