@@ -909,39 +909,35 @@ body {
 
 /*Styling for Donation Button on Sidebar*/
 
+.beforeDonateImage {
+	width: 100%;
+	display: block;
+}
+.beforeDonateImage:hover {
+	display: none;
+}
+.beforeDonateImage:hover .onHoverDonateImage {
+	display: block;
+}
+.onHoverDonateImage {
+	width: 100%;
+	display: none;
+}
 .sidebarBlock {
   width: 100%;
-  padding-bottom: 15px;
+  padding: 0;
   overflow: hidden;
-  background-color: #D93A32;
   text-align: center;
   display: block;
   cursor: pointer;
   color: white;
   transition: transform 0.5s;
 }
-.sidebarBlock:hover {
+/*.sidebarBlock:hover {
 	background-color: white;
 	color: #D93A32;
 	box-shadow: 2px 4px 4px #0A101F;
-}
-.sidebarBlock p {
-	padding: 10px;
-	margin: 0 0 10px 0;
-}
-.sidebarImage {
-	display: block;
-  	padding-top: 70%;
-  	border: 0px;
-  	margin: 0px;
-  	background-size: contain;
-  	background-repeat: no-repeat;
-	max-width:100%;
-	max-height:100%;
-}
-.donationImage {
-	background-image: url("../img/donation.jpeg");
-}
+}*/
 
 
 /* Styling for Social Media Icons */
