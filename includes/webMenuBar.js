@@ -104,13 +104,18 @@
    var Educanon = document.createElement('a');
    Educanon.href = "AnonQ.html";
    Educanon.innerHTML = "Anonymous Questions";
+
+   var Educask = document.createElement('a');
+   Educask.href = "AskAQ.html";
+   Educask.innerHTML = "Ask a Question";
    
    EducationExpand.appendChild(Educurr);
    EducationExpand.appendChild(PeerEdModel);
    EducationExpand.appendChild(EduPhil);
    EducationExpand.appendChild(ErinsLaw);
    EducationExpand.appendChild(Edures);
-   EducationExpand.appendChild(Educanon);   
+   EducationExpand.appendChild(Educanon);
+   EducationExpand.appendChild(Educask); 
    
    EducationExpanding.appendChild(EduMenuButton);
    EducationExpanding.appendChild(EducationExpand);
