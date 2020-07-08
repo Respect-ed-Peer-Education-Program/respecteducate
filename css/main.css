@@ -908,8 +908,12 @@ body {
 
 
 /*Styling for Donation Button on Sidebar*/
+.DonateImage {
+	width: 100%;
+	display: block;
+}
 
-.beforeDonateImage {
+/*.beforeDonateImage {
 	width: 100%;
 	display: block;
 }
@@ -922,7 +926,7 @@ body {
 .onHoverDonateImage {
 	width: 100%;
 	display: none;
-}
+}*/
 .sidebarBlock {
   width: 100%;
   padding: 0;
