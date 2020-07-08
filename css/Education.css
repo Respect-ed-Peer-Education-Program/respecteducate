@@ -50,6 +50,9 @@
 .ErinsLawImage {
 	width: 100%;
 }
+img[usemap], map area {
+	outline: none;
+}
  .ErinButton {
  	padding: 30px;
  	margin-left: 1%;
