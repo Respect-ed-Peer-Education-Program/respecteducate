@@ -519,6 +519,12 @@ body {
 		padding-top: 0 !important;
 	}
 }
+@media screen and (max-width: 1110px) and (min-width: 981px) {
+	#WhatsNewMenu {
+		padding-top: 6% !important;
+	}
+}
+
 @media screen and (max-width: 980px) {
 	#WhatsNewMenu {
 		padding-top: 0 !important;
@@ -554,11 +560,7 @@ body {
 		padding-top: 6% !important;
 	}
 }
-@media screen and (max-width: 1110px) {
-	#WhatsNewMenu {
-		padding-top: 6% !important;
-	}
-}
+
 @media screen and (max-width: 830px) {
 	#AboutBottomMenu {
 		padding-right: 1.5% !important;
@@ -572,7 +574,6 @@ body {
 		padding-right: 0 !important;
 	}
 	#WhatsNewMenu {
-		padding-left: 1% !important;
 		padding-top: 0 !important;
 	}
 }
@@ -637,7 +638,7 @@ body {
 		padding: 4px 0 !important;
 	}
 	.bottomMenu {
-		height: 790px !important;
+		height: 800px !important;
 	}
 	#copyAndCredit {
 		padding: 0 2% 20px 2% !important;
