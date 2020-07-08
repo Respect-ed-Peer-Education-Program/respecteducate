@@ -15,64 +15,6 @@
 	line-height: 1.5;
 }
 
-.founderLeft {
-	width: 40%;
-	float: left;
-}
-.founderRight {
-	width: 40%;
-	float: right;
-	margin-right: 3% !important;
-}
-.founderBio {
-  margin: 140px 0 7% 0;
-  border-radius: 15px;
-  padding: 0 20px 20px;
-  box-shadow: 4px 4px 0px #D93A32, 10px 10px 0px #0A101F;
-  text-align: center;
-  background-color: white;
-}
-.founderbioimage {
-   background-size: cover;
-  background-position: center;
-  border-radius: 200px;
-  box-shadow: 0 0 0 10px #0A101F;
-  height: 250px;
-  width: 250px;
-  position: relative;
-  margin: auto;
-  margin-top: 0px;
-  margin-bottom: -100px;
-  top: -100px;
-}
-.foundername {
-  font-size: 32px;
-  font-family: "Open Sans";
-  font-weight: 600;
-  margin-bottom: 0;
-  color: #D93A32;
-}
-.founderposition {
-  font-size: 16px;
-  color: #0A101F;
-  font-weight: bolder;
-  letter-spacing: 1px;
-}
-.founderpronouns {
-  font-size: 16px;
-  font-style: italic;
-  color: #0A101F;
-  letter-spacing: 1px;
-}
-#founderBio {
-	line-height: 1.25;
-}
-@media screen and (max-width: 700px) {
-	.founderBio {
-		width: 90%;
-	}
-}
-
 /*Styling for Bio/Team Page*/
 
 .bioSubtitle {
@@ -88,8 +30,8 @@
 .bioPageTitle {
 	padding-left: 10px !important;
 }
-.zoe {
-  background-image: url("../img/IMG_9837.jpg");
+.Zoe {
+  background-image: url("../img/ZoeHeadshot.jpg");
 }
 .Maya {
   background-image: url("../img/MayaHeadshot.jpg");
@@ -110,18 +52,22 @@
   box-shadow: 4px 4px 0px #D93A32, 10px 10px 0px #0A101F;
   text-align: center;
   background-color: white;
-  width: 100%;
+  width: 25%;
 }
 .thebios {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	margin: auto;
 }
 
-@media screen and (max-width: 1096px) {
+@media screen and (max-width: 1242px) {
 	.Bio {
-		width: 25% !important;
+		width: 24% !important;
 	}
+}
+
+@media screen and (max-width: 1096px) {
 	.bioimage {
 		background-size: cover;
 		  background-position: center;
@@ -134,6 +80,11 @@
 		  margin-top: 0px;
 		  margin-bottom: -70px !important;
 		  top: -70px !important;
+	}
+}
+@media screen and (max-width: 1018px) {
+	.Bio {
+		width: 23% !important;
 	}
 }
 @media screen and (max-width: 750px) {
@@ -204,12 +155,5 @@
 .bioInfo {
 	color: #0A101F;
 	font-size: 16px;
-  	line-height: 22px;
-}
-#zoePersonInfo, #mayaPersonInfo, #jadePersonInfo, #jessePersonInfo {
-	color: #D93A32;
-	font-size: 16px;
-	max-height: 0;
-	overflow: hidden;
   	line-height: 22px;
 }
