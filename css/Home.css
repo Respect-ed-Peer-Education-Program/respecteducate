@@ -37,6 +37,12 @@ img[usemap], map area {
 	text-align: center;
 	color: white;
 }
+@media screen and (max-width: 730px) {
+	.homeText {
+		font-size: 20px !important;
+	}
+}
+
 .socials {
 	height: 160px;
 	box-sizing: border-box;
