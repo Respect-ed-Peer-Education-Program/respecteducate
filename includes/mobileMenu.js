@@ -18,7 +18,7 @@
    homeMenuButton.classList.add("newPage");
    homeMenuButton.classList.add("SmallmenuElement");
    homeMenuButton.classList.add("topMenuItem");
-   homeMenuButton.href = "Home.html";
+   homeMenuButton.href = "Home";
    homeMenuButton.innerHTML = "Home";
    
     /* START of Expanding Menu Button */
@@ -35,17 +35,17 @@
    AboutExpand.classList.add("SmallItemsinExpandingMenu");
    
    var Abouta = document.createElement('a');
-   Abouta.href = "About.html";
+   Abouta.href = "About";
    Abouta.classList.add("newPage");
    Abouta.innerHTML = "Our Mission";
    
    var AboutStaff = document.createElement('a');
-   AboutStaff.href = "Staff.html";
+   AboutStaff.href = "Staff";
    AboutStaff.classList.add("newPage");
    AboutStaff.innerHTML = "Our Team";
    
    var AboutStory = document.createElement('a');
-   AboutStory.href = "Story.html";
+   AboutStory.href = "Story";
    AboutStory.classList.add("newPage");
    AboutStory.innerHTML = "Our Story";
    
@@ -72,38 +72,38 @@
    EducationExpand.classList.add("SmallItemsinExpandingMenu");
    
    var Educurr = document.createElement('a');
-   Educurr.href = "Education.html";
+   Educurr.href = "Education";
    Educurr.classList.add("newPage");
    Educurr.innerHTML = "Our Curriculum";
    
    var PeerEdModel = document.createElement('a');
    PeerEdModel.classList.add("newPage");
-   PeerEdModel.href = "PeerEdModel.html";
+   PeerEdModel.href = "PeerEdModel";
    PeerEdModel.innerHTML = "Peer Education Model";
 
    var EduPhil = document.createElement('a');
    EduPhil.classList.add("newPage");
-   EduPhil.href = "EduPhil.html";
+   EduPhil.href = "EduPhil";
    EduPhil.innerHTML = "Educational Philosophy";
 
    var ErinsLaw = document.createElement('a');
    ErinsLaw.classList.add("newPage");
-   ErinsLaw.href = "ErinsLaw.html";
+   ErinsLaw.href = "ErinsLaw";
    ErinsLaw.innerHTML = "Erin's Law";
    
    var Edures = document.createElement('a');
    Edures.classList.add("newPage");
-   Edures.href = "Resources.html";
+   Edures.href = "Resources";
    Edures.innerHTML = "Resources";
    
    var Educanon = document.createElement('a');
    Educanon.classList.add("newPage");
-   Educanon.href = "AnonQ.html";
+   Educanon.href = "AnonQ";
    Educanon.innerHTML = "Anonymous Questions";
 
    var Educask = document.createElement('a');
    Educask.classList.add("newPage");
-   Educask.href = "AskAQ.html";
+   Educask.href = "AskAQ";
    Educask.innerHTML = "Ask a Question";
    
    EducationExpand.appendChild(Educurr);
@@ -134,12 +134,12 @@
    
    var AtSchool = document.createElement('a');
    AtSchool.classList.add("newPage");
-   AtSchool.href = "GetInvolved.html";
+   AtSchool.href = "GetInvolved";
    AtSchool.innerHTML = "Respect(Ed) at Your School";
    
    var Contact = document.createElement('a');
    Contact.classList.add("newPage");
-   Contact.href = "ContactUs.html";
+   Contact.href = "ContactUs";
    Contact.innerHTML = "Contact Us";
    
    GetInvExpand.appendChild(AtSchool);
@@ -150,7 +150,7 @@
    /* END of Expanding Menu Button */
    
    var WhatsNewMenuButton = document.createElement('a');
-   WhatsNewMenuButton.href = "WhatsNew.html";
+   WhatsNewMenuButton.href = "WhatsNew";
    WhatsNewMenuButton.classList.add("newPage");
    WhatsNewMenuButton.classList.add("SmallmenuElement");
    WhatsNewMenuButton.innerHTML = "What's New?";
