@@ -199,5 +199,10 @@ img[usemap], map area {
   	background-color: #d93a320d;
   }
 
+@media screen and (max-width: 580px) {
+	.resBoxes {
+		width: 96% !important;
+	}
+}
 
 
