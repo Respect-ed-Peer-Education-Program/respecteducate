@@ -62,7 +62,7 @@
 				<input id="articleSearch" onkeyup="searchArticles()" type="text" name="search" placeholder="Search Articles...">
 			</div>
 			
-			<div onclick="location.href='https://www.klcc.org/post/high-schoolers-petition-comprehensive-sex-ed-training-eugene-4j-again-0';" class="articleBlock 2020">
+			<div onclick="location.href='https://www.klcc.org/post/high-schoolers-petition-comprehensive-sex-ed-training-eugene-4j-again-0';" class="articleBlock 2020 inDateRange">
 				<div class="articleDate">
 					<p class="dateText">Feb. 3 2020</p>
 				</div>
@@ -74,7 +74,7 @@
 				</div>
 			</div>
 			
-			<div onclick="location.href='https://blogs.uoregon.edu/metoo/sex-education/';" class="articleBlock 2019">
+			<div onclick="location.href='https://blogs.uoregon.edu/metoo/sex-education/';" class="articleBlock 2019 inDateRange">
 				<div class="articleDate">
 					<p class="dateText">Apr. 8 2019</p>
 				</div>
@@ -86,7 +86,7 @@
 				</div>
 			</div>
 			
-			<div onclick="location.href='http://eugeneweekly.com/2016/05/05/maya-corral/';" class="articleBlock 2016">
+			<div onclick="location.href='http://eugeneweekly.com/2016/05/05/maya-corral/';" class="articleBlock 2016 inDateRange">
 				<div class="articleDate">
 					<p class="dateText">May 5 2016</p>
 				</div>
@@ -209,15 +209,24 @@
 				if(currentButton.classList.contains('showAll')) {
 					for (var j = 0; j < divsToFilter.length; j++) {
 						divsToFilter[j].style.display="flex";
+						if (!divsToFilter[j].classList.contains('inDateRange')) {
+							divsToFilter[j].classList.add('inDateRange');
+						}
 					}
 				}
 				else {
 					for (var j = 0; j < divsToFilter.length; j++) {
 						if(divsToFilter[j].classList.contains(currentButton.innerHTML)) {
 							divsToFilter[j].style.display="flex";
+							if (!divsToFilter[j].classList.contains('inDateRange')) {
+								divsToFilter[j].classList.add('inDateRange');
+							}
 						}
 						else {
 							divsToFilter[j].style.display="none";
+							if (divsToFilter[j].classList.contains('inDateRange')) {
+								divsToFilter[j].classList.remove('inDateRange');
+							}
 						}
 					}
 				}
@@ -233,30 +242,36 @@
 		function searchArticles() {
 			var searchTerm = document.getElementById('articleSearch').value.toLowerCase();
 			var articleTitles = document.getElementsByClassName('titleText');
-			for (i = 0; i < articleTitles.length; i++) {  
-		        if (articleTitles[i].innerHTML.toLowerCase().includes(searchTerm)) { 
-		        	articleTitles[i].parentNode.parentNode.style.display="flex";
-		        	articleTitles[i].parentNode.parentNode.classList.add('containsTitle');
-		        } 
-		        else { 
-		        	articleTitles[i].parentNode.parentNode.style.display="none"; 
-		        	articleTitles[i].parentNode.parentNode.classList.remove('containsTitle');
-		        } 
+			for (i = 0; i < articleTitles.length; i++) { 
+				if(articleTitles[i].parentNode.parentNode.classList.contains('inDateRange')) {
+					if (articleTitles[i].innerHTML.toLowerCase().includes(searchTerm)) { 
+			        	articleTitles[i].parentNode.parentNode.style.display="flex";
+			        	articleTitles[i].parentNode.parentNode.classList.add('containsTitle');
+			        } 
+			        else { 
+			        	articleTitles[i].parentNode.parentNode.style.display="none"; 
+			        	articleTitles[i].parentNode.parentNode.classList.remove('containsTitle');
+			        } 
+				}
 		    }
 			var articleTexts = document.getElementsByClassName('summaryText');
 			for (j = 0; j < articleTexts.length; j++) {  
-		        if (articleTexts[j].innerHTML.toLowerCase().includes(searchTerm)) { 
-		        	articleTexts[j].parentNode.parentNode.style.display="flex"; 
-		        } 
-		        else { 
-		        	if(!articleTexts[j].parentNode.parentNode.classList.contains('containsTitle')) {
-		        		articleTexts[j].parentNode.parentNode.style.display="none"; 
-		        	}
-		        	                 
-		        } 
+				if(articleTitles[j].parentNode.parentNode.classList.contains('inDateRange')) {
+					if (articleTexts[j].innerHTML.toLowerCase().includes(searchTerm)) { 
+			        	articleTexts[j].parentNode.parentNode.style.display="flex"; 
+			        } 
+			        else { 
+			        	if(!articleTexts[j].parentNode.parentNode.classList.contains('containsTitle')) {
+			        		articleTexts[j].parentNode.parentNode.style.display="none"; 
+			        	}
+			        	                 
+			        } 
+				}
+		        
 		    }
 		}
 	</script>
+	
 </body>
 
 </html>
