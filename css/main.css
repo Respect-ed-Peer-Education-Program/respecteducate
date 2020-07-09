@@ -360,7 +360,7 @@ body {
 /*Styling for Bottom Menu*/
 
 .bottomMenu {
-	height: 350px;
+	height: 360px;
 	background-color: #0A101F;
 	color: white;
 	width: 100%;
@@ -710,7 +710,7 @@ body {
 }
 .column {
   float: left;
-  padding: 20px 10px 10px 0px;
+  padding: 20px 10px 20px 0px;
 }
 .left {
   width: 23%;
