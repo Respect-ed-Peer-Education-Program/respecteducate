@@ -2,19 +2,8 @@
  * Styling specific to "Education" pages/subpages
  */
 
-.EduSubtitle {
- 	text-shadow: none;
-	font-size: 22px;
-	font-style: oblique;
-	font-weight: 500;
-	padding-left: 1%;
- }
- .EduSubtitleB {
-  	text-shadow: none;
-	font-size: 22px;
-	font-weight: bolder;
-	padding-left: 1%;
- }
+
+
 .powerpointSlide {
 	width: 96%;
 	padding-left: 1%;
@@ -32,9 +21,7 @@
 		width: 100% !important;
 	}
 }
- .resourceTitle {
- 	font-style: italic;
- }
+
  .EduSideMenu {
  }
  .eduColRight {
@@ -172,17 +159,54 @@ img[usemap], map area {
 	float: right;
 }
 
-.resourceButton {
-	margin-left: 1%;
-	margin-top: 2%;
-	padding: 10px;
-	margin-bottom: 0;
-	background-color: #0A101F;
-	color: white;
-	border: none;
+.resCat {
+	width: 96%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	margin-right: 3%;
+	padding-left: 1%;
+	padding-bottom: 1%;
 }
-.resourceButton:hover {
-	color: white;
-	background-color: #D93A32;
-	cursor: pointer;
-}
+ .EduSubtitle {
+ 	text-shadow: none;
+	font-size: 22px;
+	font-style: oblique;
+	font-weight: 500;
+	padding-left: 1%;
+ }
+ .EduSubtitleB {
+  	text-shadow: none;
+	font-size: 22px;
+	font-weight: bolder;
+	padding-left: 1%;
+	width: 100%;
+ }
+ .resourceTitle {
+ 	font-style: italic;
+ 	width: 100%;
+ 	padding: 0;
+ 	padding-left: 1%;
+ }
+ .resBoxes {
+ 	width: 46%;
+ 	padding-left: 1%;
+ 	padding-right: 1%;
+ }
+  .resBoxes:hover {
+  	cursor: pointer;
+  	background-color: #d93a320d;
+  }
+ #resourceSearch {
+ 	width: 94%;
+ 	padding: 17px;
+ 	margin-left: 1%;
+ 	margin-bottom: 20px;
+ 	margin-top: 15px;
+ 	border: 0.5px solid #0A101F;
+ }
+  .searchBar {
+	 width: 97%;
+ }
+
+
