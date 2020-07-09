@@ -1,49 +1,50 @@
 /**
  * Styling specific to "What's New" page
  */
+
  
-.newsRight {
+.articleBlock {
+	padding-left: 1%;
+	padding-right: 3%;
 	display: flex;
-}
-.leftSubCol {
-	float: left;
-	width: 100%;
-	
-}
-.rightSubCol {
-	float: right;
-	width: 100%;
-}
-.newsBlock {
-	margin: 10px;
-  	border-radius: 15px;
-  	padding: 10px;
-  	background-color: white;
-  	box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
-  	text-align: center;
-}
-.articleLink {
+	flex-wrap: wrap;
 	cursor: pointer;
-	border: none;
-	padding: 10px;
-	background-color: rgba(0,0,0,0.07);
+	background-color: none;
 }
-.articleLink:hover {
-	background-color: #D93A32; 
-	color: white;
-}
-.whatsNewTitle {
-	text-align: center;
-	color: #0A101F;
-	font-style: italic;
-}
-.articleTitle {
-	font-family: "Open Sans";
+.articleBlock:hover {
+	background-color: #ffffff63;
 }
 .articleDate {
+	width: 18%;
+}
+.dateText {
+	font-size: 20px;
+	color: #D93A32;
+	padding-right: 50px;
 	font-family: "Open Sans";
 }
-.articleSummary {
-	font-family: "Open Sans";
-}
+ .articleTitle {
+ 	width: 82%;
+ }
+ .titleText {
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	font-family: "Open Sans";
+ 	margin-bottom: 5px;
+ }
+ .articleSummary {
+ 	width: 82%;
+ 	padding-left: 18%;
+ }
+ .summaryText {
+ 	line-height: 1.5;
+ 	font-size: 18px;
+ 	font-family: "Open Sans";
+ }
+ .whatsNewTitle {
+ 	padding-bottom: 25px !important;
+ }
+ .whatsNewRight {
+ 	padding-bottom: 30px !important;
+ }
  
