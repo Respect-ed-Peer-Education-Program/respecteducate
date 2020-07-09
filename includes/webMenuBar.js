@@ -71,7 +71,7 @@
    
    var EduMenuButton = document.createElement('a');
    EduMenuButton.onclick = function() {
-       window.location.href='Education.html';
+       window.location.href='Education';
    };
    EduMenuButton.setAttribute("id", "EduMenuButton");
    EduMenuButton.classList.add("menuButton");
@@ -128,7 +128,7 @@
    
    var GetInvButton = document.createElement('a');
    GetInvButton.onclick = function() {
-       window.location.href='GetInvolved.html';
+       window.location.href='GetInvolved';
    };
    GetInvButton.setAttribute("id", "GetInvMenuButton");
    GetInvButton.classList.add("menuButton");
