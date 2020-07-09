@@ -58,6 +58,10 @@
   		
 			<h2 class="sectionTitle whatsNewTitle">Stay up to date with the latest from Respect(Ed)</h2>
 			
+			<div class="searchBar">
+				<input id="articleSearch" onkeyup="searchArticles()" type="text" name="search" placeholder="Search Articles...">
+			</div>
+			
 			<div onclick="location.href='https://www.klcc.org/post/high-schoolers-petition-comprehensive-sex-ed-training-eugene-4j-again-0';" class="articleBlock 2020">
 				<div class="articleDate">
 					<p class="dateText">Feb. 3 2020</p>
@@ -223,6 +227,35 @@
 		}
 		
 		
+	</script>
+	
+	<script>
+		function searchArticles() {
+			var searchTerm = document.getElementById('articleSearch').value.toLowerCase();
+			var articleTitles = document.getElementsByClassName('titleText');
+			for (i = 0; i < articleTitles.length; i++) {  
+		        if (articleTitles[i].innerHTML.toLowerCase().includes(searchTerm)) { 
+		        	articleTitles[i].parentNode.parentNode.style.display="flex";
+		        	articleTitles[i].parentNode.parentNode.classList.add('containsTitle');
+		        } 
+		        else { 
+		        	articleTitles[i].parentNode.parentNode.style.display="none"; 
+		        	articleTitles[i].parentNode.parentNode.classList.remove('containsTitle');
+		        } 
+		    }
+			var articleTexts = document.getElementsByClassName('summaryText');
+			for (j = 0; j < articleTexts.length; j++) {  
+		        if (articleTexts[j].innerHTML.toLowerCase().includes(searchTerm)) { 
+		        	articleTexts[j].parentNode.parentNode.style.display="flex"; 
+		        } 
+		        else { 
+		        	if(!articleTexts[j].parentNode.parentNode.classList.contains('containsTitle')) {
+		        		articleTexts[j].parentNode.parentNode.style.display="none"; 
+		        	}
+		        	                 
+		        } 
+		    }
+		}
 	</script>
 </body>
 
