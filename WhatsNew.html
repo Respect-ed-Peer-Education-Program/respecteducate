@@ -40,54 +40,60 @@
   		
   		<div class="column left">
   		
+			<ul class="SideMenu">
+    				<li class="SideMenuItem"><a class="dateButton 2020">2020</a></li>
+				<li class="SideMenuItem"><a class="dateButton 2019">2019</a></li>
+				<li class="SideMenuItem"><a class="dateButton 2018">2018</a></li>
+				<li class="SideMenuItem"><a class="dateButton 2017">2017</a></li>
+				<li class="SideMenuItem"><a class="dateButton 2016">2016</a></li>
+				<li class="SideMenuItem"><a class="active dateButton showAll">SHOW ALL</a></li>
+			</ul>
+			
   			<div class="sidebarBlock" onclick="window.location='https://secure.actblue.com/donate/respect-ed';">
 				<img class="DonateImage" src='img/donate_sidebar.png' onmouseover="this.src='img/donate_sidebar_selected.png';" onmouseout="this.src='img/donate_sidebar.png';" />
 			</div>
 		 </div>
   		
-  		<div class="column right">
-			<h2 class="whatsNewTitle">What’s new at Respect(Ed)</h2>
-			<div class="newsRight">
-				<div class="leftSubCol">
-				<div class="newsBlock">
-					<h3 class="articleTitle">Respect(Ed) student leaders speak out against fear tactics and 
-					victim-blaming in guest presentation</h3>
-					<h4 class="articleDate">February 3, 2020</h4>
-					<p class="articleSummary">
-					Respect(Ed) student leaders Lane Mikkelsen, Sam Nystrom-Costales, and 
-					Ilka Sankari were featured in an article covering their work to fight abstinence-based 
-					sex ed in their high school. Mikkelsen, Nystrom-Costales, and Sankari are protesting 
-					the fear tactics, victim-blaming, and abstinence-only attitude propagated by 
-					Richard Wistocki, a guest speaker hired by the Oregon school district to present to 
-					students and parents on cybercrime and online harassment. They point out that Wistocki&#39;s 
-					talks were not only harmful but also directly violated state guidelines for sex education. 
-					The three presented their complaints to the district school board last month, and demanded 
-					that a formal apology be issued. Nystrom-Costales has also started an online petition, 
-					which currently has more than 100 signatures.
-					</p>
-					<a href="https://www.klcc.org/post/high-schoolers-petition-comprehensive-sex-ed-training-eugene-4j-again-0">
-						<button class="articleLink">Read More</button>
-					</a>
+  		<div class="column right whatsNewRight">
+  		
+			<h2 class="sectionTitle whatsNewTitle">Stay up to date with the latest from Respect(Ed)!</h2>
+			
+			<div onclick="location.href='https://www.klcc.org/post/high-schoolers-petition-comprehensive-sex-ed-training-eugene-4j-again-0';" class="articleBlock 2020">
+				<div class="articleDate">
+					<p class="dateText">Feb. 3 2020</p>
+				</div>
+				<div class="articleTitle">
+					<p class="titleText">Respect(Ed) student leaders speak out against fear tactics and victim-blaming in guest presentation</p>
+				</div>
+				<div class="articleSummary">
+					<p class="summaryText">Respect(Ed) student leaders Lane Mikkelsen, Sam Nystrom-Costales, and Ilka Sankari were featured in an article covering their work to fight abstinence-based sex ed in their high school. Mikkelsen, Nystrom-Costales, and Sankari are protesting the fear tactics, victim-blaming, and abstinence-only attitude propagated by Richard Wistocki, a guest speaker hired by the Oregon school district to present to students and parents on cybercrime and online harassment. They point out that Wistocki's talks were not only harmful but also directly violated state guidelines for sex education. The three presented their complaints to the district school board last month, and demanded that a formal apology be issued. Nystrom-Costales has also started an online petition, which already has more than 100 signatures.</p>
 				</div>
 			</div>
-			<div class="rightSubCol">
-				<div class="newsBlock">
-					<h3 class="articleTitle">Respect(Ed) profiled as part of #MeToo project</h3>
-					<h4 class="articleDate">April 8, 2019</h4>
-					<p class="articleSummary">
-					Directors Jade Pfaefflin Bounds, Jesse Pearce, Maya Corral, and Zoë Pringle were 
-					interviewed about the Respect(Ed) Peer Education Program as part of a journalistic 
-					project around #MeToo being run out of the University of Oregon. Read about how peer 
-					educators put theory into practice and make a real difference on the ground in the 
-					classroom. The Reporting #MeToo series is part of the university&#39;s larger Catalyst 
-					Journalism Project promoting journalism that focuses on both investigation and solutions. 
-					</p>
-					<a href="https://blogs.uoregon.edu/metoo/sex-education/">
-						<button class="articleLink">Read More</button>
-					</a>
+			
+			<div onclick="location.href='https://blogs.uoregon.edu/metoo/sex-education/';" class="articleBlock 2019">
+				<div class="articleDate">
+					<p class="dateText">Apr. 8 2019</p>
+				</div>
+				<div class="articleTitle">
+					<p class="titleText">Respect(Ed) profiled as part of #MeToo project</p>
+				</div>
+				<div class="articleSummary">
+					<p class="summaryText">Directors Jade Pfaefflin Bounds, Jesse Pearce, Maya Corral, and Zoë Pringle were interviewed about the Respect(Ed) Peer Education Program as part of a journalistic project around #MeToo being run out of the University of Oregon. Read about how peer educators put theory into practice and make a real difference on the ground in the classroom. The Reporting #MeToo series is part of the university's larger Catalyst Journalism Project promoting journalism that focuses on both investigation and solutions.</p>
 				</div>
 			</div>
+			
+			<div onclick="location.href='http://eugeneweekly.com/2016/05/05/maya-corral/';" class="articleBlock 2016">
+				<div class="articleDate">
+					<p class="dateText">May 5 2016</p>
+				</div>
+				<div class="articleTitle">
+					<p class="titleText">Spotlight on Respect(Ed) co-founder Maya Corral </p>
+				</div>
+				<div class="articleSummary">
+					<p class="summaryText">Co-founder and director Maya Corral talks about her beginnings as a young activist in her community and the genesis of the Respect(Ed) program.</p>
+				</div>
 			</div>
+			
   		</div>
 	</div>
 	
@@ -178,6 +184,46 @@
 		</div>
 	
 	<script type="text/javascript" src="includes/mobileMenu.js"></script>
+	
+	<script>
+		var DateButtons = document.getElementsByClassName('dateButton');
+		for (var i = 0; i < DateButtons.length; i++) {
+			DateButtons[i].addEventListener('click', function() {
+				
+				var allButtons = document.getElementsByClassName('dateButton');
+				for (var k = 0; k < allButtons.length; k++) {
+					if(allButtons[k].classList.contains('active')) {
+						allButtons[k].classList.remove('active');
+					}
+				}
+				
+				this.classList.add("active");
+				
+				var currentButton = this;
+				
+				var divsToFilter = document.getElementsByClassName('articleBlock');
+				if(currentButton.classList.contains('showAll')) {
+					for (var j = 0; j < divsToFilter.length; j++) {
+						divsToFilter[j].style.display="flex";
+					}
+				}
+				else {
+					for (var j = 0; j < divsToFilter.length; j++) {
+						if(divsToFilter[j].classList.contains(currentButton.innerHTML)) {
+							divsToFilter[j].style.display="flex";
+						}
+						else {
+							divsToFilter[j].style.display="none";
+						}
+					}
+				}
+
+
+			})
+		}
+		
+		
+	</script>
 </body>
 
 </html>
