@@ -41,7 +41,8 @@ img[usemap], map area {
 	outline: none;
 }
 #ImageKey {
-	width: 60%;
+	width: 50%;
+	padding: 2% 0.5% 5% 0;
 }
  .ErinButton {
  	padding: 30px;
