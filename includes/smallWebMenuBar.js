@@ -12,7 +12,7 @@
 
     var menuBarLogoImage = document.createElement('img');
     menuBarLogoImage.classList.add("smallmenuBarLogoImage");
-    menuBarLogoImage.src = "img/MainLogo.png";
+    menuBarLogoImage.src = "img/logo_narrow.jpg";
 
     logo.appendChild(menuBarLogoImage);
 
