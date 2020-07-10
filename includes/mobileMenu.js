@@ -12,7 +12,7 @@
    
    var popUpMenuLogo = document.createElement('img');
    popUpMenuLogo.classList.add("popUpMenuLogo");
-   popUpMenuLogo.src = "img/MainLogo.png";
+   popUpMenuLogo.src = "img/logo_narrow.jpg";
    
    var homeMenuButton = document.createElement('a');
    homeMenuButton.classList.add("newPage");
