@@ -9,7 +9,7 @@ Respect(Ed) is a nonprofit organization run by and for young people, working to 
 - Jenna Everard (@JennaEverard)
 - Catherine O'Brien (@ceobrien202)
 ## Status
-Currently under development
+Version 1 launched on July 10th, 2020
 ## Copyright and License
 *Pending*
 
