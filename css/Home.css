@@ -87,12 +87,12 @@ img[usemap], map area {
 .socialIcon div {
   width: 80px;
   height: 80px;
-  color: #D93A32;
+  color: #0A101F;
   font-size: 1.8em;
   text-align: center;
   line-height: 80px;
   font-size: 40px !important;
-  background-color: #D93A32;
+  background-color: #0A101F;
   transition: all 0.5s ease;
   cursor: pointer;
 }
