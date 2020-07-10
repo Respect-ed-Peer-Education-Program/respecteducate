@@ -19,6 +19,12 @@
 	height: 100%;
 	box-sizing: border-box;
 }
+#map-image {
+	width: 90% !important;
+	margin-left: 5%;
+	max-width: 100%;
+	height: auto;
+}
 img[usemap], map area {
 	outline: none;
 }
