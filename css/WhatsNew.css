@@ -78,6 +78,9 @@
  .sectionText a {
  	text-decoration: none;
  }
+.indentedSectionText {
+	text-indentation: 50px;
+}
  .articleButton {
  	border: none;
  	font-style: italic;
