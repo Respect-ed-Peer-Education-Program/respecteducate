@@ -218,7 +218,8 @@ img[usemap], map area {
 	padding: 20px;
 	background-color: #D93A32;
 	color: white;
-	transition: 0.3s all;
+	border: none;
+	font-size: 16px;
 }
 .SexEdButtons:hover {
 	cursor: pointer;
@@ -226,4 +227,12 @@ img[usemap], map area {
 }
 .lastButton {
 	margin-right: 0 !important;
+}
+
+@media screen and (max-width: 750px) {
+	.SexEdButtons {
+		width: 100%;
+		margin-bottom: 4%;
+		margin-right: 0 !important;
+	}
 }
