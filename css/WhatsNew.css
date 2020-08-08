@@ -65,7 +65,7 @@
  	text-decoration: none;
  	color: #0A101F;
  }
- .articleTitle:hover {
+ .articleTitle a:hover {
  	text-decoration: underline;
  }
  .fullDateText {
