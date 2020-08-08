@@ -105,6 +105,11 @@
    Educask.classList.add("newPage");
    Educask.href = "../AskAQ";
    Educask.innerHTML = "Ask a Question";
+
+   var EduSexEd = document.createElement('a');
+   EduSexEd.classList.add("newPage");
+   EduSexEd.href = "../SexEd";
+   EduSexEd.innerHTML = "Sex(Ed)";
    
    EducationExpand.appendChild(Educurr);
    EducationExpand.appendChild(PeerEdModel);
@@ -113,6 +118,7 @@
    EducationExpand.appendChild(Edures);
    EducationExpand.appendChild(Educanon);   
    EducationExpand.appendChild(Educask);  
+   EducationExpand.appendChild(EduSexEd);
    
    EducationExpanding.appendChild(EduMenuButton);
    EducationExpanding.appendChild(EducationExpand);
