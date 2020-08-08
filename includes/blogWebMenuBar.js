@@ -7,7 +7,7 @@
    
    var logo = document.createElement('a');
    logo.classList.add("logo");
-   logo.href = "Home";
+   logo.href = "../Home";
    
    var menuBarLogoImage = document.createElement('img');
    menuBarLogoImage.classList.add("menuBarLogoImage");
