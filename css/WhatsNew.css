@@ -58,3 +58,36 @@
  .searchBar {
 	 width: 97%;
  }
+
+
+/* Styling for blog pages */
+ .articleTitle a {
+ 	text-decoration: none;
+ 	color: #0A101F;
+ }
+ .articleTitle:hover {
+ 	text-decoration: underline;
+ }
+ .fullDateText {
+ 	font-style: italic;
+ 	color: #D93A32;
+ }
+ .articlePageContent {
+ 	padding: 2% 3% 2% 3%;
+ }
+ .sectionText a {
+ 	text-decoration: none;
+ }
+ .articleButton {
+ 	border: none;
+ 	font-style: italic;
+ 	font-size: 14px;
+ 	color: #d93a32cf;
+ 	margin-left: 0.6%;
+ 	margin-top: 0.5%;
+ 	margin-bottom: 1%;
+ }
+.articleButton:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
