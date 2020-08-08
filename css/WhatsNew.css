@@ -75,11 +75,17 @@
  .articlePageContent {
  	padding: 2% 3% 2% 3%;
  }
+ .articlePageContent iframe {
+	 margin-bottom: -2%;
+	 margin-left: 1%;
+	 width: 97%;
+	 height: 652px;
+}
  .sectionText a:hover {
 	 color: #8f1d17;
  }
 .indentedSectionText {
-	text-indentation: 50px;
+	padding-left: 5%;
 }
  .articleButton {
  	border: none;
