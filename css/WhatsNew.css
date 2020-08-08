@@ -75,8 +75,8 @@
  .articlePageContent {
  	padding: 2% 3% 2% 3%;
  }
- .sectionText a {
- 	text-decoration: none;
+ .sectionText a:hover {
+	 color: #8f1d17;
  }
 .indentedSectionText {
 	text-indentation: 50px;
