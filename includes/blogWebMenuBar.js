@@ -108,6 +108,10 @@
    var Educask = document.createElement('a');
    Educask.href = "../AskAQ";
    Educask.innerHTML = "Ask a Question";
+
+   var EduSexEd = document.createElement('a');
+   EduSexEd.href = "../SexEd";
+   EduSexEd.innerHTML = "Sex(Ed)";
    
    EducationExpand.appendChild(Educurr);
    EducationExpand.appendChild(PeerEdModel);
@@ -115,7 +119,8 @@
    EducationExpand.appendChild(ErinsLaw);
    EducationExpand.appendChild(Edures);
    EducationExpand.appendChild(Educanon);
-   EducationExpand.appendChild(Educask); 
+   EducationExpand.appendChild(Educask);
+   EducationExpand.appendChild(EduSexEd); 
    
    EducationExpanding.appendChild(EduMenuButton);
    EducationExpanding.appendChild(EducationExpand);
