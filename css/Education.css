@@ -207,3 +207,23 @@ img[usemap], map area {
 }
 
 
+/* styling for Sex(Ed) page */
+#SexEdButtonsDiv {
+	margin-left: 1%;
+	width: 97%;
+}
+.SexEdButtons {
+	width: 30%;
+	margin-right: 4%;
+	padding: 20px;
+	background-color: #D93A32;
+	color: white;
+	transition: 0.3s all;
+}
+.SexEdButtons:hover {
+	cursor: pointer;
+	background-color: #0A101F;
+}
+.lastButton {
+	margin-right: 0 !important;
+}
