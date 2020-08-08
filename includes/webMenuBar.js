@@ -110,8 +110,8 @@
    Educask.innerHTML = "Ask a Question";
 
    var EduSexEd = document.createElement('a');
-   Educask.href = "SexEd";
-   Educask.innerHTML = "Sex(Ed)";
+   EduSexEd.href = "SexEd";
+   EduSexEd.innerHTML = "Sex(Ed)";
    
    EducationExpand.appendChild(Educurr);
    EducationExpand.appendChild(PeerEdModel);
