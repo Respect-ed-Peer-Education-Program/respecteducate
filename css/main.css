@@ -701,6 +701,7 @@ body {
   text-decoration: none;
   width: 100%;
   cursor: pointer;
+  text-transform: uppercase;
 }
 .SideMenuItem a:hover:not(.active) {
   background-color: #D93A32;
