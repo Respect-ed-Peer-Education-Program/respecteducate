@@ -225,6 +225,29 @@
 	
 	
 	
+	<!-- PopUp Window -->
+		<div id="SexEdPopupDiv">
+			<div id="SexEdPopupContent">
+				<a id="SexEdPopupCloseButton" onclick="document.getElementById('SexEdPopupDiv').style.display = 'none';">&times;</a>
+				<h1>Sex(Ed)</h1>
+				<h2>Teaching Sex Education During a Pandemic</h2>
+				<p>Respect(Ed)'s pilot program to provide remote sex education in the time of the COVID-19 pandemic</p>
+				<button onclick="window.location.href='SexEd'">Learn More</button>
+			</div>
+		</div>
+	
+	<script>
+		window.onload = function() {
+			document.getElementById("SexEdPopupDiv").style.display = "flex";
+			closeTimeout = setTimeout(showClose, 2000);
+		}
+			
+		function showClose() {
+			document.getElementById("SexEdPopupCloseButton").style.display = "inline-block";
+			clearTimeout(closeTimeout);	
+		}
+	</script>
+	
 	<script type="text/javascript" src="includes/mobileMenu.js"></script>
 
 	
