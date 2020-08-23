@@ -1,1 +1,123 @@
+/**
+ * Styling specific to "What's New" page
+ */
+
+ 
+.articleBlock {
+	padding-left: 1%;
+	padding-right: 3%;
+	display: flex;
+	flex-wrap: wrap;
+	cursor: pointer;
+	background-color: none;
+}
+.articleBlock:hover {
+	background-color: #ffffff63;
+}
+.articleInfo {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	height: fit-content;
+}
+.articleDate {
+	width: 21%;
+	height: fit-content;
+}
+.dateText {
+	font-size: 20px;
+	color: #D93A32;
+	font-family: "Open Sans";
+	margin-top: 20px;
+	padding-right: 50px;
+}
+ .articleTitle {
+ 	width: 75%;
+ 	height: fit-content;
+ }
+ .titleText {
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	font-family: "Open Sans";
+ 	margin-bottom: 15px;
+ 	margin-top: 20px;
+ }
+  .articleSummary {
+ 	width: 75%;
+ 	padding-left: 21%;
+ 	height: fit-content;
+ }
+ .summaryText {
+ 	line-height: 1.5;
+ 	font-size: 18px;
+ 	font-family: "Open Sans";
+ }
+ .articlePhoto {
+ 	width: 100%;
+ 	margin-top: 20px;
+ }
+  .articlePhoto img {
+  	width: 70%;
+  	padding-left: 10%;
+  }
+ .whatsNewTitle {
+ 	padding-bottom: 25px !important;
+ }
+ .whatsNewRight {
+ 	padding-bottom: 30px !important;
+ }
+  #articleSearch {
+ 	width: 94%;
+ 	padding: 17px;
+ 	margin-left: 1%;
+ 	margin-bottom: 20px;
+ 	margin-top: 15px;
+ 	border: 0.5px solid #0A101F;
+ }
+ .searchBar {
+	 width: 97%;
+ }
+
+
+/* Styling for blog pages */
+ .articleTitle a {
+ 	text-decoration: none;
+ 	color: #0A101F;
+ }
+ .articleTitle a:hover {
+ 	text-decoration: underline;
+ }
+ .fullDateText {
+ 	font-style: italic;
+ 	color: #D93A32;
+ }
+ .articlePageContent {
+ 	padding: 2% 3% 2% 3%;
+ }
+ .articlePageContent iframe {
+	 margin-bottom: -2%;
+	 margin-left: 1%;
+	 width: 97%;
+	 height: 652px;
+}
+ .sectionText a:hover {
+	 color: #8f1d17;
+ }
+.indentedSectionText {
+	padding-left: 5%;
+}
+ .articleButton {
+ 	border: none;
+ 	font-style: italic;
+ 	font-size: 14px;
+ 	color: #d93a32cf;
+ 	margin-left: 0.6%;
+ 	margin-top: 0.5%;
+ 	margin-bottom: 1%;
+ }
+.articleButton:hover {
+	cursor: pointer;
+	font-weight: bold;
+}
 
