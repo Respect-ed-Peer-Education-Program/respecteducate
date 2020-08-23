@@ -14,33 +14,53 @@
 .articleBlock:hover {
 	background-color: #ffffff63;
 }
+.articleInfo {
+	width: 77%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	height: fit-content;
+}
 .articleDate {
-	width: 18%;
+	width: 21%;
+	height: fit-content;
 }
 .dateText {
 	font-size: 20px;
 	color: #D93A32;
-	padding-right: 50px;
 	font-family: "Open Sans";
+	margin-top: 20px;
+	padding-right: 50px;
 }
  .articleTitle {
- 	width: 82%;
+ 	width: 75%;
+ 	height: fit-content;
  }
  .titleText {
  	font-size: 20px;
  	font-weight: bold;
  	font-family: "Open Sans";
- 	margin-bottom: 5px;
+ 	margin-bottom: 15px;
+ 	margin-top: 20px;
  }
- .articleSummary {
- 	width: 82%;
- 	padding-left: 18%;
+  .articleSummary {
+ 	width: 75%;
+ 	padding-left: 21%;
+ 	height: fit-content;
  }
  .summaryText {
  	line-height: 1.5;
  	font-size: 18px;
  	font-family: "Open Sans";
  }
+ .articlePhoto {
+ 	width: 23%;
+ 	margin-top: 20px;
+ 	margin-bottom: 20px;
+ }
+  .articlePhoto img {
+  	width: 100%;
+  }
  .whatsNewTitle {
  	padding-bottom: 25px !important;
  }
