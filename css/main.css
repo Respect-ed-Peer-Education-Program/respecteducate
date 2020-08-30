@@ -533,7 +533,11 @@ body {
 		padding-top: 6% !important;
 	}
 }
-
+@media screen and (max-width: 1006px) and (min-width: 980px) {
+	.bottomMenuSocials {
+		margin: 20px 7px 7px 10px !important;
+	}
+}
 @media screen and (max-width: 980px) {
 	#WhatsNewMenu {
 		padding-top: 0 !important;
@@ -570,7 +574,11 @@ body {
 		padding-top: 6% !important;
 	}
 }
-
+@media screen and (max-width: 884px) and (min-width: 776px) {
+	.bottomMenuSocials {
+		margin: 10px 2px 25px 2px !important;
+	}
+}
 @media screen and (max-width: 830px) {
 	#AboutBottomMenu {
 		padding-right: 1.5% !important;
