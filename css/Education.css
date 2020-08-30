@@ -228,6 +228,10 @@ img[usemap], map area {
 .lastButton {
 	margin-right: 0 !important;
 }
+.SexEdGraphics {
+	padding-top: 1%;
+	padding-bottom: 3.5%;
+}
 
 @media screen and (max-width: 750px) {
 	.SexEdButtons {
