@@ -322,26 +322,26 @@
 			var searchTerm = document.getElementById('articleSearch').value.toLowerCase();
 			var articleTitles = document.getElementsByClassName('titleText');
 			for (i = 0; i < articleTitles.length; i++) { 
-				if(articleTitles[i].parentNode.parentNode.classList.contains('inDateRange')) {
+				if(articleTitles[i].parentNode.parentNode.parentNode.classList.contains('inDateRange')) {
 					if (articleTitles[i].innerHTML.toLowerCase().includes(searchTerm)) { 
-			        	articleTitles[i].parentNode.parentNode.style.display="flex";
-			        	articleTitles[i].parentNode.parentNode.classList.add('containsTitle');
+			        	articleTitles[i].parentNode.parentNode.parentNode.style.display="flex";
+			        	articleTitles[i].parentNode.parentNode.parentNode.classList.add('containsTitle');
 			        } 
 			        else { 
-			        	articleTitles[i].parentNode.parentNode.style.display="none"; 
-			        	articleTitles[i].parentNode.parentNode.classList.remove('containsTitle');
+			        	articleTitles[i].parentNode.parentNode.parentNode.style.display="none"; 
+			        	articleTitles[i].parentNode.parentNode.parentNode.classList.remove('containsTitle');
 			        } 
 				}
 		    }
 			var articleTexts = document.getElementsByClassName('summaryText');
 			for (j = 0; j < articleTexts.length; j++) {  
-				if(articleTitles[j].parentNode.parentNode.classList.contains('inDateRange')) {
+				if(articleTitles[j].parentNode.parentNode.parentNode.classList.contains('inDateRange')) {
 					if (articleTexts[j].innerHTML.toLowerCase().includes(searchTerm)) { 
-			        	articleTexts[j].parentNode.parentNode.style.display="flex"; 
+			        	articleTexts[j].parentNode.parentNode.parentNode.style.display="flex"; 
 			        } 
 			        else { 
-			        	if(!articleTexts[j].parentNode.parentNode.classList.contains('containsTitle')) {
-			        		articleTexts[j].parentNode.parentNode.style.display="none"; 
+			        	if(!articleTexts[j].parentNode.parentNode.parentNode.classList.contains('containsTitle')) {
+			        		articleTexts[j].parentNode.parentNode.parentNode.style.display="none"; 
 			        	}
 			        	                 
 			        } 
