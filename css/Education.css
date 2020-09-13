@@ -237,6 +237,9 @@ img[usemap], map area {
 	margin-bottom: 1%;
 	margin-left: 1%;
 }
+#programUpdates i {
+	margin-right: 1%;
+}
 
 @media screen and (max-width: 750px) {
 	.SexEdButtons {
