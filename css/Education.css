@@ -232,6 +232,11 @@ img[usemap], map area {
 	padding-top: 1%;
 	padding-bottom: 3.5%;
 }
+#programUpdates {
+	color: #D93A32;
+	margin-bottom: 1%;
+	margin-left: 1%;
+}
 
 @media screen and (max-width: 750px) {
 	.SexEdButtons {
