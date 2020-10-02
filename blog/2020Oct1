@@ -1,0 +1,158 @@
+  
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<meta charset="ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="../css/main.css" />
+<link rel="stylesheet" href="../css/WhatsNew.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Favicon Files/Styling generated with help from https://realfavicongenerator.net-->
+<link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+<link rel="manifest" href="../favicons/site.webmanifest">
+<link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="../favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="../favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+	
+<title>Video Release: Do Athletes Really Care if Their Teammate is Transgender?</title>
+
+</head>
+
+<body>
+
+	<script type="text/javascript" src="../includes/blogWebMenuBar.js"></script>
+	<script type="text/javascript" src="../includes/blogSmallWebMenuBar.js"></script>
+	<script type="text/javascript">
+		document.getElementById("WhatsNewMenuButton").classList.add("active");
+	</script>
+  
+  <div class="row">
+    <div class="articlePageContent">
+      <button class="articleButton" onclick="window.location.href='../WhatsNew'">&#8592; Return to All Articles</button>
+      <h2 class="sectionTitle articleTitle"><a href="https://www.youtube.com/watch?v=wNizzd2sS98&t=401s">Anonymous Question: Do you need dysphoria to be transgender?</a></h2>
+      <p class="sectionText fullDateText">Oct. 1 2020 | Jade Pfaefflin Bounds, Outreach & Education Director</p>
+      <p class="sectionText">
+	      This has become a heated debate within the transgender community in recent years, and neither side is really right or wrong; it just depends how you look at it.  
+	      <br><br>
+	     For thorough context: 
+	      <br><br>
+	      Being transgender just means that you do not identify as the gender you were assigned at birth. In the United States, the diagnostic term for transgender is ‘gender dysphoria.’ The idea behind this diagnostic term is that ascribing a medical needcan better ensure transgender people’s access to related healthcare. <a href="https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM-5-Gender-Dysphoria.pdf">According to the DSM-5</a>, gender dysphoria is medically defined as “a marked incongruence between one’s experienced/expressed gender and assigned gender, of at least six months’ duration, as manifested by…a strong desire to be rid of one’s…sex characteristics…, to be treated as the other gender…, [or] a strong conviction that one has feelings and reactions typical of the other gender …The condition is associated with clinically significant distress or impairment in social, occupational, or other important areas of functioning.” More generally, gender dysphoria is the feeling of discomfort or distress that might occur in people whose gender identity differs from their sex assigned at birth or sex-related physical characteristics. 
+	      <br><br>
+	      The answer: 
+	      <br><br>
+        Theoretically, no, you do not need dysphoria to be transgender. One’s transness is about their personal gender identity, and that identity is not defined by discomfort. But it is typically discovered through discomfort. That discomfort is characterized as gender dysphoria. For the vast majority of transgender people, we discover our transness through our discomfort with the traits, behaviors, roles, and/or bodies we were born into. Most of the time, such a large misalignment will be uncomfortable. It may not all be uncomfortable; for example, many transgender people never have genital or “bottom” dysphoria, and that does not make them any less trans than those who do. 
+        <br><br>
+        Many of the trans people who insist upon the requirement of general or specific dysphoria do so because they have severe dysphoria and cannot imagine someone sharing their identity who did not find it through a severe and often debilitating sense of unease and discomfort. When one’s need for transitional healthcare is born out of a debilitating feeling of discomfort in their own body, it can be hard to imagine someone wanting or needing that healthcare unprompted by the same discomfort. It can feel like someone who is less uncomfortable needs transitional healthcare less. However, people do not exist in comparison and one person’s needs have no bearing on the needs of others. 
+        <br><br>
+        I believe that in a world where gender characteristics and bodies are not assigned so aggressively, less trans people would be significantly dysphoric, but in the world we live in now, much of trans discovery is through discomfort. 
+	     </p>
+     </div>
+  </div>
+  
+  	<!-- Bottom Menu -->
+		<div class="bottomMenu">
+				<div class="leftBottomMenu">
+					<a >
+						<img class="smallLogo" alt="Logo" src="../img/logo_narrow.jpg" />
+					</a>
+					<p class="bottomMenuText">Respect(Ed) Peer Education Program is a registered 501(c)(3) nonprofit under EIN 83-4269894. 
+					All donations are fully tax-deductible.</p>
+					<ul>
+						<li>
+							<a class="leftmost fa fa-facebook bottomMenuSocials" href="https://www.facebook.com/respectedpeereducation/"></a>
+							<a href="https://twitter.com/respecteducate" class="fa fa-twitter bottomMenuSocials"></a>
+							<a href="https://www.instagram.com/respecteducate/" class="fa fa-instagram bottomMenuSocials"></a>
+							<a class="donateFooter" href="https://secure.actblue.com/donate/respect-ed">DONATE</a>
+						</li>
+					</ul>
+				</div>
+				<div class="rightBottomMenu">
+					
+					<ul id="AboutBottomMenu">
+						<li class="mainBottom">
+							<a href="../About">About</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../About">Our Mission</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../Staff">Our Team</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../Story">Our Story</a>
+						</li>
+					</ul>
+					
+					<ul id="EducationBottomMenu">
+						<li class="mainBottom">
+							<a href="../Education">Education</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../Education">Our Curriculum</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../PeerEdModel">Peer Education Model</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../EduPhil">Educational Philosophy</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../ErinsLaw">Erin's Law</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../Resources">Resources</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../AnonQ">Anonymous Questions</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../AskAQ">Ask a Question</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../SexEd">Sex(Ed)</a>
+						</li>
+					</ul>
+					
+					<ul id="GetInvBottomMenu">
+						<li class="mainBottom">
+							<a href="../GetInvolved">Get Involved</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../GetInvolved">Respect(Ed) at Your School</a>
+						</li>
+						<li class="minorBottom">
+							<a href="../ContactUs">Contact Us</a>
+						</li>
+					</ul>
+					
+					<ul id="WhatsNewMenu">
+						<li class="mainBottom">
+							<a href="../WhatsNew">What's New</a>
+						</li>
+					</ul>
+					
+				</div>
+		</div>
+		
+		<div id="copyAndCredit">
+				<p>&copy; 2020 Respect(Ed) Peer Education Program   |   Website Developed and Designed by <a class="nameLink" href="https://www.linkedin.com/in/jenna-everard/">Jenna Everard</a> and Catherine O'Brien</p>
+		</div>
+	
+	<script type="text/javascript" src="../includes/blogMobileMenu.js"></script>
+
+</body>
+
+</html>
