@@ -248,3 +248,81 @@ img[usemap], map area {
 		margin-right: 0 !important;
 	}
 }
+
+/* Styling for pop up forms */
+.popupForm {
+	position: absolute;
+	cursor: pointer;
+	display: none;
+	z-index: 1000;
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.close {
+
+	border-radius: 50px;
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	font-size: 30px;
+	text-align: center;
+	/*background-color: black;*/
+	color: white;
+	text-shadow: black;
+	top: 1%;
+	left: -7%;
+	z-index: 100000;
+	font-weight: bolder;
+	text-align: center;
+	text-shadow: 3px 1px #0A101F;
+}
+.close:hover {
+}
+.popupFormContent {
+	height: 100%;
+	width: 40%;
+	right: 0;
+	animation-name: slideIn;
+	animation-duration: 1s;
+	background-color: white;
+	position: fixed;
+	z-index: 10000 !important;
+}
+@keyframes slideIn {
+	from {
+		right: -400px;
+		opacity: 0;
+	}
+	to {
+		right: 0px;
+		opacity: 1;
+	}
+}
+.popupFormContent p {
+
+}
+.bringGoogleForm {
+	width: 100%;
+	height: 100%;
+}
+.bringIframe {
+	height: 100%;
+	width: 100%;
+}
