@@ -10,7 +10,7 @@ Respect(Ed) is a nonprofit organization run by and for young people, working to 
 - Catherine O'Brien (@ceobrien202)
 ## Status
 Version 1 launched on July 10th, 2020
-## Copyright and License
+## Code License
 *Pending*
-
-In the meantime, please refrain from reproducing the website's content
+## Content Copyright
+All contents of this website including, but not limited to, graphics, descriptions, curriculums, and blog posts are the intellectual property of Respect(Ed) Peer Education Program. Use, duplication, and distribution of this site's contents is **only permitted for non-commercial uses when Respect(Ed) is properly credited**. For commercial use, or for any other usage questions, please contact Respect(Ed).
