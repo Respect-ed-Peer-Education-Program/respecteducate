@@ -77,9 +77,9 @@
    Educurr.innerHTML = "Our Curriculum";
 
    var EduTool = document.createElement('a');
-   Educurr.href = "Toolkits";
-   Educurr.classList.add("newPage");
-   Educurr.innerHTML = "Toolkits";
+   EduTool.href = "Toolkits";
+   EduTool.classList.add("newPage");
+   EduTool.innerHTML = "Toolkits";
    
    var PeerEdModel = document.createElement('a');
    PeerEdModel.classList.add("newPage");
