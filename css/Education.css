@@ -225,6 +225,10 @@ img[usemap], map area {
 	cursor: pointer;
 	background-color: #0A101F;
 }
+.SexEdButtons a {
+	color: white;
+	text-decoration: none;
+}
 .lastButton {
 	margin-right: 0 !important;
 }

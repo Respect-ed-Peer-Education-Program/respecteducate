@@ -84,6 +84,10 @@
    var Educurr = document.createElement('a');
    Educurr.href = "Education";
    Educurr.innerHTML = "Our Curriculum";
+
+   var EduTool = document.createElement('a');
+   EduTool.href = "Toolkits";
+   EduTool.innerHTML = "Toolkits";
    
    var PeerEdModel = document.createElement('a');
    PeerEdModel.href = "PeerEdModel";
@@ -114,6 +118,7 @@
    EduSexEd.innerHTML = "Sex(Ed)";
    
    EducationExpand.appendChild(Educurr);
+   EducationExpand.appendChild(EduTool);
    EducationExpand.appendChild(PeerEdModel);
    EducationExpand.appendChild(EduPhil);
    EducationExpand.appendChild(ErinsLaw);
