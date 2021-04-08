@@ -209,9 +209,17 @@ gi3_a.setAttribute("href", "ContactUs");
 gi3_a.innerHTML = "Contact Us";
 gi3.appendChild(gi3_a);
 
+var gi4 = document.createElement('li');
+gi4.classList.add('minorBottom');
+var gi4_a = document.createElement('a');
+gi4_a.setAttribute("href", "Events");
+gi4_a.innerHTML = "Events";
+gi4.appendChild(gi4_a);
+
 gi_ul.appendChild(gi1);
 gi_ul.appendChild(gi2);
 gi_ul.appendChild(gi3);
+gi_ul.appendChild(gi4);
 
 var whatsnew_ul = document.createElement('div');
 whatsnew_ul.setAttribute("id", "GetInvBottomMenu");
