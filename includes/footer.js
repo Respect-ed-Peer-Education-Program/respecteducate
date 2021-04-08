@@ -238,8 +238,8 @@ menuLeft.appendChild(logoText);
 menuLeft.appendChild(social_ul);
 
 menuRight.appendChild(about_ul);
-menuRight.appendChild(gi_ul);
 menuRight.appendChild(edu_ul);
+menuRight.appendChild(gi_ul);
 menuRight.appendChild(whatsnew_ul);
 
 
