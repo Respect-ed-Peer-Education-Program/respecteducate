@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+<meta charset="ISO-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/main.css" /> 
+<link rel="stylesheet" href="css/GetInvolved.css" /> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Favicon Files/Styling generated with help from https://realfavicongenerator.net-->
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+<link rel="manifest" href="favicons/site.webmanifest">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<title>Events</title>
+
+</head> 
+
+<body>
+
+	<script type="text/javascript" src="includes/webMenuBar.js"></script>
+	<script type="text/javascript" src="includes/smallWebMenuBar.js"></script>
+	<script type="text/javascript">
+		document.getElementById("GetInvMenuButton").classList.add("active");
+	</script>
+	
+	<div class="row">
+	
+  		<!-- Sidebar Navigation -->
+  		<div class="column left">
+    		<ul class="SideMenu">
+    			<li class="SideMenuItem"><a href="GetInvolved">RESPECT(ED) AT YOUR SCHOOL</a></li>
+				<li class="SideMenuItem"><a href="ContactUs">CONTACT US</a></li>
+          <li class="SideMenuItem"><a class="active" href="Events">EVENTS</a></li>
+			</ul>
+			
+			<!-- Donation Button -->
+			<div class="sidebarBlock" onclick="window.location='https://secure.actblue.com/donate/respect-ed';">
+				<img class="DonateImage" src='img/donate_sidebar.png' onmouseover="this.src='img/donate_sidebar_selected.png';" onmouseout="this.src='img/donate_sidebar.png';" />
+			</div>
+			
+  		</div>
+		
+		<div id = "smallSideMenu" class = "smallSideMenu">
+  			<i class="smallSideIcon fa fa-bars" aria-hidden="true"></i>
+  			<p class="smallSideText">EVENTS</p>
+  		</div>
+  		
+  	</div>
+  	
+  	<div class="column right">
+  		
+  			<h1 class="sectionTitle">Events</h1>
+  			<p class="sectionText">
+  				Check out our upcoming programs, fundraisers, and other fun events! Hope to see you there.
+  			</p>
+      
+        <iframe src="https://calendar.google.com/calendar/embed?src=c_q160u2kksviqer5rd6u15ck39o%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0; padding-left: 1%; padding-right: 3%;" width="96%" height="800px" frameborder="0" scrolling="no"></iframe>
+  				
+ 
+	</div>
+	
+	<!-- Bottom Menu -->
+		<div class="bottomMenu">
+				<div class="leftBottomMenu">
+					<a >
+						<img class="smallLogo" alt="Logo" src="img/logo_narrow.jpg" />
+					</a>
+					<p class="bottomMenuText">Respect(Ed) Peer Education Program is a registered 501(c)(3) nonprofit under EIN 83-4269894. 
+					All donations are fully tax-deductible.</p>
+					<ul>
+						<li>
+							<a class="leftmost fa fa-facebook bottomMenuSocials" href="https://www.facebook.com/respectedpeereducation/"></a>
+							<a href="https://twitter.com/respecteducate" class="fa fa-twitter bottomMenuSocials"></a>
+							<a href="https://www.instagram.com/respecteducate/" class="fa fa-instagram bottomMenuSocials"></a>
+							<a class="donateFooter" href="https://secure.actblue.com/donate/respect-ed">DONATE</a>
+						</li>
+					</ul>
+				</div>
+				<div class="rightBottomMenu">
+					
+					<ul id="AboutBottomMenu">
+						<li class="mainBottom">
+							<a href="About">About</a>
+						</li>
+						<li class="minorBottom">
+							<a href="About">Our Mission</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Staff">Our Team</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Story">Our Story</a>
+						</li>
+					</ul>
+					
+					<ul id="EducationBottomMenu">
+						<li class="mainBottom">
+							<a href="Education">Education</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Education">Our Curriculum</a>
+						</li>
+						<li class="minorBottom">
+							<a href="PeerEdModel">Peer Education Model</a>
+						</li>
+						<li class="minorBottom">
+							<a href="EduPhil">Educational Philosophy</a>
+						</li>
+						<li class="minorBottom">
+							<a href="ErinsLaw">Erin's Law</a>
+						</li>
+						<li class="minorBottom">
+							<a href="Resources">Resources</a>
+						</li>
+						<li class="minorBottom">
+							<a href="AnonQ">Anonymous Questions</a>
+						</li>
+						<li class="minorBottom">
+							<a href="AskAQ">Ask a Question</a>
+						</li>
+						<li class="minorBottom">
+							<a href="SexEd">Sex(Ed)</a>
+						</li>
+					</ul>
+					
+					<ul id="GetInvBottomMenu">
+						<li class="mainBottom">
+							<a href="GetInvolved">Get Involved</a>
+						</li>
+						<li class="minorBottom">
+							<a href="GetInvolved">Respect(Ed) at Your School</a>
+						</li>
+            <li class="minorBottom">
+							<a href="Events">Events</a>
+						</li>
+						<li class="minorBottom">
+							<a href="ContactUs">Contact Us</a>
+						</li>
+					</ul>
+					
+					<ul id="WhatsNewMenu">
+						<li class="mainBottom">
+							<a href="WhatsNew">What's New</a>
+						</li>
+					</ul>
+					
+				</div>
+		</div>
+		
+		<div id="copyAndCredit">
+				<p>&copy; 2020 Respect(Ed) Peer Education Program   |   Website Developed and Designed by <a class="nameLink" href="https://www.linkedin.com/in/jenna-everard/">Jenna Everard</a> and Catherine O'Brien</p>
+		</div>
+	
+	<div id="popupSideMenu" class="popupSideMenu">
+  				<div class="popupSideMenuContent">
+  						<div class="SideMenuItemBlock">
+  							<ul class="PopUpSideMenu">
+				    			<li onclick="window.location.href='GetInvolved'" class="PopUpSideMenuItem"><a href="GetInvolved">GET INVOLVED</a></li>
+                  <li onclick="window.location.href='ContactUs'" class="PopUpSideMenuItem SmallSideItemactive"><a class="SmallSideMenuactive" href="Events">EVENTS</a></li>
+								<li onclick="window.location.href='ContactUs'" class="PopUpSideMenuItem"><a href="ContactUs">CONTACT US</a></li>
+							</ul>
+							<!-- <div class="PopUpsidebarBlock" onclick="window.location='https://secure.actblue.com/donate/respect-ed';">
+								<div class="PopUpsidebarImage PopUpdonationImage"></div>
+								<h3> Support Respect(Ed)! </h3>
+								<p> Your donation helps students bring essential and effective consent education into their classrooms. </p>
+							</div>-->
+  						</div>
+  				</div>
+  		</div>
+	
+	<script>			
+			var popupButton = document.getElementById("smallSideMenu");
+			popupButton.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='block';*/
+				document.getElementById("popupSideMenu").style.display='block';
+				document.getElementById("popupSideMenu").style.height=document.body.scrollHeight+"px";
+			})
+
+			var fadedPage = document.getElementById("popupSideMenu");
+			fadedPage.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='none';*/
+				document.getElementById("popupSideMenu").style.display='none';
+			})
+
+			var closeButton = document.getElementById("SideMenuclose");
+			closeButton.addEventListener("click", function() {
+				/*document.getElementById("wrapper").style.display='none';*/
+				document.getElementById("popupSideMenu").style.display='none';
+			})
+
+	</script>
+	
+	<script type="text/javascript" src="includes/mobileMenu.js"></script>
+	
+</body>
+
+</html>
