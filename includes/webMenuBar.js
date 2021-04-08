@@ -155,9 +155,14 @@
    var Contact = document.createElement('a');
    Contact.href = "ContactUs";
    Contact.innerHTML = "Contact Us";
+
+   var Events = document.createElement('a');
+   Events.href = "Events";
+   Events.innerHTML = "Events";
    
    GetInvExpand.appendChild(AtSchool);
    GetInvExpand.appendChild(Contact);
+   GetInvExpand.appendChild(Events);
    
    GetInvExpanding.appendChild(GetInvButton);
    GetInvExpanding.appendChild(GetInvExpand);
