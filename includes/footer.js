@@ -250,10 +250,32 @@ menuDiv.appendChild(menuRight);
 var credits = document.createElement('div');
 credits.setAttribute("id", "copyAndCredit");
 
+var additional_buttons = document.createElement('div');
+additional_buttons.setAttribute("id", "bottom_buttons_div");
+
+var legal = document.createElement('li');
+legal.classList.add('additional_buttons');
+var legal_a = document.createElement('a');
+legal_a.setAttribute("href", "Legal");
+legal.style.marginRight = '2%';
+legal_a.innerHTML = "Legal";
+legal.appendChild(legal_a);
+
+var careers = document.createElement('li');
+careers.classList.add('additional_buttons');
+var careers_a = document.createElement('a');
+careers_a.setAttribute("href", "Careers");
+careers_a.innerHTML = "Careers";
+careers.appendChild(careers_a);
+
+additional_buttons.appendChild(legal);
+additional_buttons.appendChild(careers);
+
 var creditText = document.createElement('p');
 creditText.innerHTML = "&copy; 2020 Respect(Ed) Peer Education Program   |   Website Developed and Designed by <a class='nameLink' href='https://www.linkedin.com/in/jenna-everard/'>Jenna Everard</a> and <a class='nameLink' href='https://www.linkedin.com/in/catherine-e-obrien/'>Catherine O'Brien</a>";
 
 credits.appendChild(creditText);
+credits.appendChild(additional_buttons);
 
 document.body.appendChild(menuDiv);
 document.body.appendChild(credits)
