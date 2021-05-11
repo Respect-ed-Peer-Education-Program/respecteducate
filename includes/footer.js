@@ -221,8 +221,54 @@ gi_ul.appendChild(gi2);
 gi_ul.appendChild(gi3);
 gi_ul.appendChild(gi4);
 
+var se_ul = document.createElement('div');
+se_ul.setAttribute("id", "SexEdBottomMenu");
+
+var se1 = document.createElement('li');
+se1.classList.add('mainBottom');
+var se1_a = document.createElement('a');
+se1_a.setAttribute("href", "SexEd");
+se1_a.innerHTML = "Sex(Ed)";
+se1.appendChild(se1_a);
+
+var se2 = document.createElement('li');
+se2.classList.add('minorBottom');
+var se2_a = document.createElement('a');
+se2_a.setAttribute("href", "SexEd");
+se2_a.innerHTML = "About the Program";
+se2.appendChild(se2_a);
+
+var se3 = document.createElement('li');
+se3.classList.add('minorBottom');
+var se3_a = document.createElement('a');
+se3_a.setAttribute("href", "LeadershipInstitute");
+se3_a.innerHTML = "Leadership Institute";
+se3.appendChild(se3_a);
+
+var se4 = document.createElement('li');
+se4.classList.add('minorBottom');
+var se4_a = document.createElement('a');
+se4_a.setAttribute("href", "DropInProgramming");
+se4_a.innerHTML = "Drop-In Programming";
+se4.appendChild(se4_a);
+
+var se5 = document.createElement('li');
+se5.classList.add('minorBottom');
+var se5_a = document.createElement('a');
+se5_a.setAttribute("href", "GuideBook");
+se5_a.innerHTML = "Guide Book";
+se5.appendChild(se5_a);
+
+se_ul.appendChild(se1);
+se_ul.appendChild(se2);
+se_ul.appendChild(se3);
+se_ul.appendChild(se4);
+se_ul.appendChild(se5);
+
+
+
 var whatsnew_ul = document.createElement('div');
-whatsnew_ul.setAttribute("id", "GetInvBottomMenu");
+whatsnew_ul.setAttribute("id", "WhatsNewBottomMenu");
 
 var whatsnew1 = document.createElement('li');
 whatsnew1.classList.add('mainBottom');
@@ -239,6 +285,7 @@ menuLeft.appendChild(social_ul);
 
 menuRight.appendChild(about_ul);
 menuRight.appendChild(edu_ul);
+menuRight.appendChild(se_ul);
 menuRight.appendChild(gi_ul);
 menuRight.appendChild(whatsnew_ul);
 
