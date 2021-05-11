@@ -113,10 +113,6 @@
    Educask.href = "AskAQ";
    Educask.innerHTML = "Ask a Question";
 
-   var EduSexEd = document.createElement('a');
-   EduSexEd.href = "SexEd";
-   EduSexEd.innerHTML = "Sex(Ed)";
-   
    EducationExpand.appendChild(Educurr);
    EducationExpand.appendChild(EduTool);
    EducationExpand.appendChild(PeerEdModel);
@@ -125,7 +121,6 @@
    EducationExpand.appendChild(Edures);
    EducationExpand.appendChild(Educanon);
    EducationExpand.appendChild(Educask);
-   EducationExpand.appendChild(EduSexEd);
    
    EducationExpanding.appendChild(EduMenuButton);
    EducationExpanding.appendChild(EducationExpand);
@@ -168,6 +163,48 @@
    GetInvExpanding.appendChild(GetInvExpand);
    /* END of Expanding Menu Button */
    
+   /* START of Expanding Menu Button */
+   var SexEdExpanding = document.createElement('div');
+   SexEdExpanding.classList.add("SexEdExpanding");
+   SexEdExpanding.classList.add("expandingMenuItem");
+   
+   var SexEdButton = document.createElement('a');
+   SexEdButton.onclick = function() {
+       window.location.href='SexEd';
+   };
+   SexEdButton.setAttribute("id", "SexEdMenuButton");
+   SexEdButton.classList.add("menuButton");
+   SexEdButton.classList.add("SexEdButton");
+   SexEdButton.innerHTML = "Sex(Ed)";
+   
+   var SexEdExpand = document.createElement('div');
+   SexEdExpand.classList.add("ItemsinExpandingMenu");
+   
+   var theprogram  = document.createElement('a');
+   theprogram.href = "SexEd";
+   theprogram.innerHTML = "About the Program";
+   
+   var leader = document.createElement('a');
+   leader.href = "LeadershipInstitute";
+   leader.innerHTML = "Leadership Institute";
+
+   var program = document.createElement('a');
+   program.href = "DropInProgramming";
+   program.innerHTML = "Drop-In Programming";
+   
+   var guide = document.createElement('a');
+   guide.href = "GuideBook";
+   guide.innerHTML = "Guide Book";
+
+   SexEdExpand.appendChild(theprogram);
+   SexEdExpand.appendChild(leader);
+   SexEdExpand.appendChild(program);
+   SexEdExpand.appendChild(guide);
+   
+   SexEdExpanding.appendChild(SexEdButton);
+   SexEdExpanding.appendChild(SexEdExpand);
+   /* END of Expanding Menu Button */
+   
    var WhatsNewMenuButton = document.createElement('a');
    WhatsNewMenuButton.setAttribute("id", "WhatsNewMenuButton");
    WhatsNewMenuButton.href = "WhatsNew";
@@ -181,6 +218,7 @@
    MenuRight.appendChild(homeMenuButton);
    MenuRight.appendChild(AboutExpanding);
    MenuRight.appendChild(EducationExpanding);
+   MenuRight.appendChild(SexEdExpanding);
    MenuRight.appendChild(GetInvExpanding);
    MenuRight.appendChild(WhatsNewMenuButton);
    MenuRight.appendChild(MenuDonateButton);

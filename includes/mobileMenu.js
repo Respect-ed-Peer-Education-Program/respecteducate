@@ -111,11 +111,6 @@
    Educask.href = "AskAQ";
    Educask.innerHTML = "Ask a Question";
 
-   var EduSexEd = document.createElement('a');
-   EduSexEd.classList.add("newPage");
-   EduSexEd.href = "SexEd";
-   EduSexEd.innerHTML = "Sex(Ed)";
-   
    EducationExpand.appendChild(Educurr);
    EducationExpand.appendChild(EduTool);
    EducationExpand.appendChild(PeerEdModel);
@@ -124,7 +119,6 @@
    EducationExpand.appendChild(Edures);
    EducationExpand.appendChild(Educanon);   
    EducationExpand.appendChild(Educask);  
-   EducationExpand.appendChild(EduSexEd); 
    
    EducationExpanding.appendChild(EduMenuButton);
    EducationExpanding.appendChild(EducationExpand);
@@ -167,6 +161,49 @@
    GetInvExpanding.appendChild(GetInvExpand);
    /* END of Expanding Menu Button */
    
+   /* START of Expanding Menu Button */
+   var SexEdExpanding = document.createElement('div');
+   SexEdExpanding.classList.add("SmallSexEdExpanding");
+   SexEdExpanding.classList.add("SmallexpandingMenuItem");
+   
+   var SexEdButton = document.createElement('button');
+   
+   SexEdButton.classList.add("SmallmenuButton");
+   SexEdButton.classList.add("SmallSexEdButton");
+   SexEdButton.innerHTML = "Sex(Ed)";
+   
+   var SexEdExpand = document.createElement('div');
+   SexEdExpand.classList.add("SmallItemsinExpandingMenu");
+   
+   var SexEd = document.createElement('a');
+   SexEd.classList.add("newPage");
+   SexEd.href = "SexEd";
+   SexEd.innerHTML = "Sex(Ed)";
+   
+   var leader = document.createElement('a');
+   leader.classList.add("newPage");
+   leader.href = "LeadershipInstitute";
+   leader.innerHTML = "Leadership Institute";
+
+   var program = document.createElement('a');
+   program.classList.add("newPage");
+   program.href = "DropInProgramming";
+   program.innerHTML = "Drop-In Programming";
+
+   var guide = document.createElement('a');
+   guide.classList.add("newPage");
+   guide.href = "GuideBook";
+   guide.innerHTML = "Guide Book";
+   
+   SexEdExpand.appendChild(SexEd);
+   SexEdExpand.appendChild(leader);
+   SexEdExpand.appendChild(program);
+   SexEdExpand.appendChild(guide);
+   
+   SexEdExpanding.appendChild(SexEdButton);
+   SexEdExpanding.appendChild(SexEdExpand);
+   /* END of Expanding Menu Button */
+   
    var WhatsNewMenuButton = document.createElement('a');
    WhatsNewMenuButton.href = "WhatsNew";
    WhatsNewMenuButton.classList.add("newPage");
@@ -185,6 +222,7 @@
    popupMenuContent.appendChild(homeMenuButton);
    popupMenuContent.appendChild(AboutExpanding);
    popupMenuContent.appendChild(EducationExpanding);
+   popupMenuContent.appendChild(SexEdExpanding);
    popupMenuContent.appendChild(GetInvExpanding);
    popupMenuContent.appendChild(WhatsNewMenuButton);
    popupMenuContent.appendChild(MenuDonateButton);

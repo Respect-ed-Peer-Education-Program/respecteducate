@@ -138,7 +138,7 @@ body {
 }
 
 /*Adjustments for smaller screens / mobile browsers*/
-@media screen and (max-width:1046px) {
+@media screen and (max-width:1103px) {
 	.smallMenu {
 		display: block;
 	}
@@ -147,7 +147,7 @@ body {
 	}
 }
 
-@media screen and (min-width:1047px) {
+@media screen and (min-width:1104px) {
 	.smallMenu {
 		display: none;
 	}
